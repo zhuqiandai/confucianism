@@ -33,13 +33,7 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           include: ['**/*.{md,mdx}'],
@@ -63,12 +57,6 @@ const config: Config = {
 
       contextualSearch: true,
       externalUrlRegex: 'external\\.com|domain\\.com',
-
-      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-      // replaceSearchResultPathname: {
-      //   from: '/blog/', // or as RegExp: /\/docs\//
-      //   to: '/',
-      // },
 
       searchParameters: {},
       searchPagePath: 'search',

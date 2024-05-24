@@ -2,12 +2,12 @@
 
 > 分层的好处：_Layer is a functional component_
 
-  1. Modularity
-  2. Well defined service
-  3. Reuse
-  4. Separation of concerns
-  5. Continuous improvement
-  6. Peer-to-peer communication
+1. Modularity
+2. Well defined service
+3. Reuse
+4. Separation of concerns
+5. Continuous improvement
+6. Peer-to-peer communication
 
 ## Network
 
@@ -19,8 +19,8 @@
 
 网络架构风格
 
-  1. 数据流
-  2. 复制
-  3. 分层
-  4. 移动代码
-  5. 点对点
+1. 数据流
+2. 复制
+3. 分层
+4. 移动代码
+5. 点对点

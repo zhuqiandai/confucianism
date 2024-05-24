@@ -2,28 +2,62 @@
 tags: [network]
 ---
 
-`HTTP HyperText Transfer Protocol` 包括其他 `Application Layer` 服务模型，实现不同主机之间的进程通信，`HTTP` 使用 `Message` 来实现。
+## 术语
 
-## Application 
+定义：_web page_ 是由对象组成。一个对象只是一个文件，而可以通过 `URL` 进行寻址。多数 _web page_ 包含一个 `base HTML file`，引用的文件都是一个单独对象
 
-> 不限制于 `http`
+1. URL `Uniform Resolution Locator`
 
-1. 通信中进程的寻址 定位
+    Protocal://user:psw@www.somedomain.com/dir/pic.gif:port
 
-    - 主机
-    - 传输协议
-    - 端口 (_16 bit_)
-    - 进程使用 `IP + Port` 标识一个 `endpoint`
-    - 一对主机之间的进程通信由两个端节点构成
+    **协议 用户:口令 主机名 路径 端口**
 
-2. 通信中进程使用传输层接口 服务
-3. 通信中进程根据传输层服务构建应用层协议，实现报文交换和构建应用
+## HTTP `HyperText Transfer Protocol`
+
+概念：`HTTP` 定义了 _web client_ 向 _web server_ 请求 _web page_ 的方式，以及 _web server_ 向 _web client_ 传送 _web page_ 的方式
+
+1. `HTTP` 使用 `client` / `server` 模式，多个连接请求 `server` 会创建多个 `socket`
+
+    - `client` 实现了 `http` 的客户端
+    - `server` 实现了 `http` 的服务器，存储 _web object_，由 `URL` 进行寻址
+
+2. _web server_ 不存储 _web client_ 的任何信息 `stateless protocal`
+
+> 默认方式大部分浏览器会打开 5 ~ 10 个并行的 `TCP` 连接
+
+
+### RTT (Round Trip Time)
+
+定义：一个短分组从客户端到服务器，再返回到客户端所花费的时间
+
+- 非持久连接：一般情况文件传输 建立 TCP 连接需要一个 RTT，传递报文需要一个 RTT
+- 持久连接：流水线或者非流水线，可以并行使所有请求达到一个 RTT
 
 ## HTTP Message
 
-- `request line`  
-- `header line` 
-- `entity body`
+1. 请求报文
+    1. request line
 
-[http-request](./assets/http-request.png) 
+        - METHOD (GET POST HEAD PUT DELETE OPTIONS)
+        - URL 
+        - VERSION
+
+    2. header line
+    3. `cr lf`
+    4. entity body
+
+2. 响应报文
+    1. status line
+
+        - VERSION
+        - STATUS CODE
+        - MESSAGE
+
+    2. header line
+    3. `cr lf`
+    4. entity body
+
+> `TCP` 不提供每个报文的边界，`HTTP` 要根据 `Content-Length` 自行区分
+    
+## HTTP Cookie
 
