@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8324],{8739:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/confucianism/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/confucianism/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
