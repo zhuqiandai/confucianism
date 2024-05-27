@@ -59,7 +59,7 @@ tags: [network]
 - `header line`
 - `entity body`
 
-[http-request](./assets/http-request.png)
+[http-request-format](./assets/http-request-format.png)
 
 ### World Wide Web
 

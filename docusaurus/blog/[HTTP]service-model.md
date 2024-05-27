@@ -36,26 +36,26 @@ tags: [network]
 ## HTTP Message
 
 1. 请求报文
-    1. request line
+    - request line
 
         - METHOD (GET POST HEAD PUT DELETE OPTIONS)
         - URL 
         - VERSION
 
-    2. header line
-    3. `cr lf`
-    4. entity body
+    - header line
+    - `cr lf`
+    - entity body
 
 2. 响应报文
-    1. status line
+    - status line
 
         - VERSION
         - STATUS CODE
         - MESSAGE
 
-    2. header line
-    3. `cr lf`
-    4. entity body
+    - header line
+    - `cr lf`
+    - entity body
 
 > `TCP` 不提供每个报文的边界，`HTTP` 要根据 `Content-Length` 自行区分
     

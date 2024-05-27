@@ -36,7 +36,7 @@ const config: Config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          include: ['**/*.{md,mdx}'],
+          include: ['**/*.{md,mdx}', '**/category/*.{md,mdx}'],
 
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
