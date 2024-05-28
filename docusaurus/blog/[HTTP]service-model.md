@@ -8,9 +8,9 @@ tags: [network]
 
 1. URL `Uniform Resolution Locator`
 
-    Protocal://user:psw@www.somedomain.com/dir/pic.gif:port
+   Protocal://user:psw@www.somedomain.com/dir/pic.gif:port
 
-    **协议 用户:口令 主机名 路径 端口**
+   **协议 用户:口令 主机名 路径 端口**
 
 ## HTTP `HyperText Transfer Protocol`
 
@@ -18,13 +18,12 @@ tags: [network]
 
 1. `HTTP` 使用 `client` / `server` 模式，多个连接请求 `server` 会创建多个 `socket`
 
-    - `client` 实现了 `http` 的客户端
-    - `server` 实现了 `http` 的服务器，存储 _web object_，由 `URL` 进行寻址
+   - `client` 实现了 `http` 的客户端
+   - `server` 实现了 `http` 的服务器，存储 _web object_，由 `URL` 进行寻址
 
 2. _web server_ 不存储 _web client_ 的任何信息 `stateless protocal`
 
 > 默认方式大部分浏览器会打开 5 ~ 10 个并行的 `TCP` 连接
-
 
 ### RTT (Round Trip Time)
 
@@ -36,28 +35,29 @@ tags: [network]
 ## HTTP Message
 
 1. 请求报文
-    - request line
 
-        - METHOD (GET POST HEAD PUT DELETE OPTIONS)
-        - URL 
-        - VERSION
+   - request line
 
-    - header line
-    - `cr lf`
-    - entity body
+     - METHOD (GET POST HEAD PUT DELETE OPTIONS)
+     - URL
+     - VERSION
+
+   - header line
+   - `cr lf`
+   - entity body
 
 2. 响应报文
-    - status line
 
-        - VERSION
-        - STATUS CODE
-        - MESSAGE
+   - status line
 
-    - header line
-    - `cr lf`
-    - entity body
+     - VERSION
+     - STATUS CODE
+     - MESSAGE
+
+   - header line
+   - `cr lf`
+   - entity body
 
 > `TCP` 不提供每个报文的边界，`HTTP` 要根据 `Content-Length` 自行区分
-    
-## HTTP Cookie
 
+## HTTP Cookie

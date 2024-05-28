@@ -1,6 +1,3 @@
-
-
-
 ```toml
 [shell]
 program="C:\\Windows\\System32\\wsl.exe"
