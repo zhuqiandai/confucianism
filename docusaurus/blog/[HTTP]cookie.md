@@ -17,3 +17,5 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 4. 服务端存储 cookie 的表项，当有 cookie 时执行 cookie 特定操作
 
 ## cookie 使用
+
+> cookie 与 seesion 相结合
