@@ -1,12 +1,13 @@
 ---
 tags: [network]
+authors: chengzhi
 ---
 
 ## 术语
 
 定义：_web page_ 是由对象组成。一个对象只是一个文件，而可以通过 `URL` 进行寻址。多数 _web page_ 包含一个 `base HTML file`，引用的文件都是一个单独对象
 
-1. URL `Uniform Resolution Locator`
+1. URL `Uniform Resolution Locator` [uri](./[HTTP]URI.md) 
 
    Protocal://user:psw@www.somedomain.com/dir/pic.gif:port
 
@@ -36,6 +37,8 @@ tags: [network]
 
 1. 请求报文
 
+   `request line = method SP request-target SP HTTP-version CRLF`
+
    - request line
 
      - METHOD (GET POST HEAD PUT DELETE OPTIONS)
@@ -60,4 +63,10 @@ tags: [network]
 
 > `TCP` 不提供每个报文的边界，`HTTP` 要根据 `Content-Length` 自行区分
 
-## HTTP Cookie
+### Response Status Code
+
+| code | description                                               |
+| ---- | --------------------------------------------------------- |
+| 100  | Continue 客户端 携带 _Expect: 100 continue_ 头部          |
+| 101  | Switch Protocol 客户端携带 _upgrade_ 头部，表示可升级请求 |
+| 102  | For WebDAV                                                |
