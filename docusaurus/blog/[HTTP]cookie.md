@@ -18,6 +18,8 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 3. 客户端保存 cookie 文件，由浏览器管理
 4. 服务端存储 cookie 的表项，当有 cookie 时执行 cookie 特定操作
 
+> RFC 中 cookie 小于 4kb
+
 ## cookie 使用
 
 > cookie 与 seesion 相结合，session 是服务器端维护的会话状态
@@ -28,3 +30,5 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 - `cookie`: SP cookie-string *(cookie-pair)
 
 ## session 使用
+
+`set-cookie: session=xxxx`
