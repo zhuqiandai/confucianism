@@ -32,3 +32,5 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 ## session 使用
 
 `set-cookie: session=xxxx`
+
+## HTTP 中的状态管理
