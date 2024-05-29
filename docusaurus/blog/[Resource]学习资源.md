@@ -8,7 +8,6 @@ tag: [resource]
 2. [The Missing Semester](https://missing.csail.mit.edu/) 
 3. [Linux C编程一站式学习](https://akaedu.github.io/book/index.html)
 
-
 ### 数据库系统
 
 1. CS186
