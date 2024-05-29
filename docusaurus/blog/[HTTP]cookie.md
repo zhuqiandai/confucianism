@@ -9,7 +9,9 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 
 ## cookie 模型
 
-> 在 _stateless_ 的 _http_ 提供了 _session layer_
+![cookie](./assets/cookie.png) 
+
+> 在 _stateless_ 的 _http_ 提供了 _session layer_ `HTTP State Management Mechanism`
 
 1. 响应报文中的 cookie 首部字段
 2. 请求报文中的 cookie 首部字段
@@ -18,4 +20,11 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 
 ## cookie 使用
 
-> cookie 与 seesion 相结合
+> cookie 与 seesion 相结合，session 是服务器端维护的会话状态
+
+- `set-cookie`: SP set-cookie-string  *(cookie-av)
+    - `cookie-av`: expires-av | max-age-av | domain-av | path-av | secure-av | http-only-av | same-site-av | comment-av
+
+- `cookie`: SP cookie-string *(cookie-pair)
+
+## session 使用
