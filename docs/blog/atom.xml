@@ -2,42 +2,216 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhuqiandai.github.io/confucianism/blog</id>
     <title>诚知 Blog</title>
-    <updated>2024-05-24T03:22:09.806Z</updated>
+    <updated>2024-05-28T08:59:15.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhuqiandai.github.io/confucianism/blog"/>
     <subtitle>诚知 Blog</subtitle>
     <icon>https://zhuqiandai.github.io/confucianism/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[[Chrome]network-pane]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
-        <summary type="html"><![CDATA[组成]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="组成">组成<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BB%84%E6%88%90" class="hash-link" aria-label="组成的直接链接" title="组成的直接链接">​</a></h2>
-<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>控制器</td><td>Item2.1</td></tr><tr><td>过滤器</td><td>Item2.2</td></tr><tr><td>概览</td><td>Item2.3</td></tr><tr><td>请求列表</td><td>Item2.3</td></tr><tr><td>概要</td><td>Item2.3</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="网络活动">网络活动<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8" class="hash-link" aria-label="网络活动的直接链接" title="网络活动的直接链接">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="网络功能">网络功能<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BD%91%E7%BB%9C%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="网络功能的直接链接" title="网络功能的直接链接">​</a></h2>]]></content>
+        <title type="html"><![CDATA[[HTTP]headers]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers"/>
+        <updated>2024-05-28T08:59:15.000Z</updated>
+        <summary type="html"><![CDATA[常用 header]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="常用-header">常用 header<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#%E5%B8%B8%E7%94%A8-header" class="hash-link" aria-label="常用 header的直接链接" title="常用 header的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="1-连接">1. 连接<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#1-%E8%BF%9E%E6%8E%A5" class="hash-link" aria-label="1. 连接的直接链接" title="1. 连接的直接链接">​</a></h3>
+<ul>
+<li>
+<p>Connection: keep-alive | close</p>
+</li>
+<li>
+<p>Host</p>
+<blockquote>
+<p>http1.1 需要一个 host 头部</p>
+</blockquote>
+</li>
+<li>
+<p>Content-Length: TCP 不提供</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="2-代理转发">2. 代理转发<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#2-%E4%BB%A3%E7%90%86%E8%BD%AC%E5%8F%91" class="hash-link" aria-label="2. 代理转发的直接链接" title="2. 代理转发的直接链接">​</a></h3>
+<ul>
+<li>x-forwarded-for: 用于传递 IP，包括转发中代理的一系列 IP</li>
+<li>x-real-ip: 用于传递用户 IP</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="3-上下文">3. 上下文<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#3-%E4%B8%8A%E4%B8%8B%E6%96%87" class="hash-link" aria-label="3. 上下文的直接链接" title="3. 上下文的直接链接">​</a></h3>
+<ul>
+<li>
+<p>User-Agent: 用户代理</p>
+</li>
+<li>
+<p>Referer: absolute-uri | partical-uri 浏览器对来自某一页面的请求自动添加的头部</p>
+<blockquote>
+<p>统计分析，缓存优化，防盗链接</p>
+</blockquote>
+</li>
+<li>
+<p>Server</p>
+</li>
+<li>
+<p>Allow: #method</p>
+</li>
+<li>
+<p>Accept-Ranges</p>
+<blockquote>
+<p>多线程下载，断点续传</p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="4-内容协商">4. 内容协商<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#4-%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86" class="hash-link" aria-label="4. 内容协商的直接链接" title="4. 内容协商的直接链接">​</a></h3>
+<blockquote>
+<p>沟通决定 server 生成不同的 http entity body 发送给 client</p>
+</blockquote>
+<ul>
+<li>
+<p>server</p>
+<ul>
+<li>Accept-Encoding: gzip</li>
+<li>Accept-Language: zh-CN</li>
+</ul>
+</li>
+<li>
+<p>client</p>
+<ul>
+<li>Content-Type</li>
+<li>Content-Encoding</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="5-http-body-传输方式">5. HTTP Body 传输方式<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#5-http-body-%E4%BC%A0%E8%BE%93%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="5. HTTP Body 传输方式的直接链接" title="5. HTTP Body 传输方式的直接链接">​</a></h3>
+<ul>
+<li>
+<p>定长包体 Content-Length: 1*DIGIT</p>
+<blockquote>
+<p>Content-Length 小于实际包体会丢掉超过字节的内容，TCP 还是会传输完整内容</p>
+</blockquote>
+<blockquote>
+<p>Content-Length 大于实际包体会违反 http 规范</p>
+</blockquote>
+</li>
+<li>
+<p>不定长包体 Transfer-Encoding: chunked</p>
+<blockquote>
+<p>基于长连接推送动态内容给客户端; 压缩内容可以同步发送；</p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="6-chunked-transfer-encoding">6. Chunked transfer encoding<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#6-chunked-transfer-encoding" class="hash-link" aria-label="6. Chunked transfer encoding的直接链接" title="6. Chunked transfer encoding的直接链接">​</a></h3>
+<ul>
+<li>
+<p>chunk-body = *chunk , last-chunk, trailer-part CRLF</p>
+</li>
+<li>
+<p>chunk = chunk-size CRLF chunk-data CRLF</p>
+<ul>
+<li>chunk-size = 1*HEXDIG</li>
+<li>chunk-data = 1*OCTET</li>
+</ul>
+</li>
+<li>
+<p>last-chunk = "0" CRLF</p>
+</li>
+<li>
+<p>trailer-part = *(header-field CRLF)</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="7-mime-multipurpose-internet-mail-extensions">7. MIME Multipurpose Internet Mail Extensions<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]headers#7-mime-multipurpose-internet-mail-extensions" class="hash-link" aria-label="7. MIME Multipurpose Internet Mail Extensions的直接链接" title="7. MIME Multipurpose Internet Mail Extensions的直接链接">​</a></h3>
+<ul>
+<li>Content-Type: type / subtype (parameters)<!-- -->
+<ul>
+<li>type := discrete-type | composite-type</li>
+<li>subtype 子类型</li>
+</ul>
+</li>
+<li>Content-Disposition: diposition-type<!-- -->
+<ul>
+<li>
+<p>disposition-type := "inline" | "attachment"</p>
+</li>
+</ul>
+<blockquote>
+<p>指定浏览器将包体作为附件下载</p>
+</blockquote>
+</li>
+</ul>]]></content>
+        <author>
+            <name>诚知</name>
+            <uri>https://github.com/zhuqiandai</uri>
+        </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[DNS]service-model]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[DNS]service-model</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[DNS]service-model"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <title type="html"><![CDATA[[Shader]shape-func]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Shader]shape-func</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Shader]shape-func"/>
+        <updated>2024-05-28T02:22:07.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[HTTP]URI]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <title type="html"><![CDATA[[Toolbox]powertoy]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Toolbox]powertoy</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Toolbox]powertoy"/>
+        <updated>2024-05-28T02:22:07.000Z</updated>
+        <summary type="html"><![CDATA[常用功能]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="常用功能">常用功能<a href="https://zhuqiandai.github.io/confucianism/blog/[Toolbox]powertoy#%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="常用功能的直接链接" title="常用功能的直接链接">​</a></h2>
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Powertoys run</td><td>Alt + Space</td></tr><tr><td>屏幕取色</td><td>Win + Shift + c</td></tr><tr><td>屏幕像素</td><td>Win + Shift + m</td></tr></tbody></table>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[HTTP]service-model]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <title type="html"><![CDATA[[Nginx]location]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Nginx]location</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Nginx]location"/>
+        <updated>2024-05-27T09:03:40.000Z</updated>
+        <summary type="html"><![CDATA[内容]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="内容">内容<a href="https://zhuqiandai.github.io/confucianism/blog/[Nginx]location#%E5%86%85%E5%AE%B9" class="hash-link" aria-label="内容的直接链接" title="内容的直接链接">​</a></h2>
+<ol>
+<li>nginx locator match</li>
+<li>nginx port</li>
+<li>nginx proxy_pass</li>
+</ol>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Configuration]alacritty]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Configuration]alacritty</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Configuration]alacritty"/>
+        <updated>2024-05-27T08:54:05.000Z</updated>
+        <content type="html"><![CDATA[<div class="language-toml codeBlockContainer_efmV theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_c0Ds"><pre tabindex="0" class="prism-code language-toml codeBlock_GTIR thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_bi74"><span class="token-line" style="color:#393A34"><span class="token plain">[shell]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">program="C:\\Windows\\System32\\wsl.exe"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">args=["--cd", "~"]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[font]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">normal = { family = "JetBrainsMonoNL Nerd Font", style = "Italic" }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">bold = { family = "JetBrainsMonoNL Nerd Font",  style = "Italic" }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">italic = { family = "JetBrainsMonoNL Nerd Font",  style = "Italic" }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">size = 11</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">offset = { x = 0, y = 8 }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[window]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">padding = { x = 8, y = 8 }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup_xs1K"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_JnLB" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_jnrS"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_jejL"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[HTTP]cookie]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]cookie</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]cookie"/>
+        <updated>2024-05-27T08:54:05.000Z</updated>
+        <summary type="html"><![CDATA[链接]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="链接">链接<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]cookie#%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="链接的直接链接" title="链接的直接链接">​</a></h2>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies</a>
+<a href="https://en.wikipedia.org/wiki/HTTP_cookie" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/HTTP_cookie</a></p>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="cookie-模型">cookie 模型<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]cookie#cookie-%E6%A8%A1%E5%9E%8B" class="hash-link" aria-label="cookie 模型的直接链接" title="cookie 模型的直接链接">​</a></h2>
+<blockquote>
+<p>在 <em>stateless</em> 的 <em>http</em> 提供了 <em>session layer</em></p>
+</blockquote>
+<ol>
+<li>响应报文中的 cookie 首部字段</li>
+<li>请求报文中的 cookie 首部字段</li>
+<li>客户端保存 cookie 文件，由浏览器管理</li>
+<li>服务端存储 cookie 的表项，当有 cookie 时执行 cookie 特定操作</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="cookie-使用">cookie 使用<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]cookie#cookie-%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="cookie 使用的直接链接" title="cookie 使用的直接链接">​</a></h2>
+<blockquote>
+<p>cookie 与 seesion 相结合</p>
+</blockquote>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[category/[useful-ramda]lens]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/category/[useful-ramda]lens</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/category/[useful-ramda]lens"/>
+        <updated>2024-05-27T08:54:05.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Application]service-model]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Application]service-model</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model"/>
+        <updated>2024-05-24T09:24:11.000Z</updated>
         <summary type="html"><![CDATA[HTTP HyperText Transfer Protocol 包括其他 Application Layer 服务模型，实现不同主机之间的进程通信，HTTP 使用 Message 来实现。]]></summary>
         <content type="html"><![CDATA[<p><code>HTTP HyperText Transfer Protocol</code> 包括其他 <code>Application Layer</code> 服务模型，实现不同主机之间的进程通信，<code>HTTP</code> 使用 <code>Message</code> 来实现。</p>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="application">Application<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#application" class="hash-link" aria-label="Application的直接链接" title="Application的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="application-上层">Application 上层<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#application-%E4%B8%8A%E5%B1%82" class="hash-link" aria-label="Application 上层的直接链接" title="Application 上层的直接链接">​</a></h2>
 <blockquote>
 <p>不限制于 <code>http</code></p>
 </blockquote>
@@ -53,32 +227,225 @@
 </ul>
 </li>
 <li>
-<p>通信中进程使用传输层接口 服务</p>
+<p>通信中进程使用传输层接口 <code>Socket</code> 服务</p>
+<ul>
+<li>两个进程之间通信需要建立连接</li>
+<li>两个进程之间通信会持续一段时间</li>
+<li>建立连接成功后操作系统返回一个 <strong>本地整数标识</strong> 两个 <code>endpoint</code> 之间的通信关系</li>
+<li>该 <em>Socket</em> 整数即标识出：本地 <code>IP Port</code> 远程 <code>IP Port</code></li>
+</ul>
 </li>
 <li>
 <p>通信中进程根据传输层服务构建应用层协议，实现报文交换和构建应用</p>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="http-message">HTTP Message<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#http-message" class="hash-link" aria-label="HTTP Message的直接链接" title="HTTP Message的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="tcp-之上的-socket"><code>TCP</code> 之上的 <code>Socket</code><a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#tcp-%E4%B9%8B%E4%B8%8A%E7%9A%84-socket" class="hash-link" aria-label="tcp-之上的-socket的直接链接" title="tcp-之上的-socket的直接链接">​</a></h3>
+<p>提供 4元组, 操作系统提供一张已经建立 <code>Socket</code> 的状态表，<code>TCP Socket</code> 本质标识一个连接关系</p>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="udp-之上的-socket"><code>UDP</code> 之上的 <code>Socket</code><a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#udp-%E4%B9%8B%E4%B8%8A%E7%9A%84-socket" class="hash-link" aria-label="udp-之上的-socket的直接链接" title="udp-之上的-socket的直接链接">​</a></h3>
+<p>提供 2元组，只提供一个整数标识：本地 <code>IP Port</code>，但是传输数据时需要 远程 <code>IP Port</code></p>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="application-协议">Application 协议<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#application-%E5%8D%8F%E8%AE%AE" class="hash-link" aria-label="Application 协议的直接链接" title="Application 协议的直接链接">​</a></h2>
+<p>通过交换报文在应用层进行通信，协议作为应用的一部分</p>
+<ul>
+<li>报文类型</li>
+<li>语法</li>
+<li>语义</li>
+<li>规则</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="application-下层">Application 下层<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#application-%E4%B8%8B%E5%B1%82" class="hash-link" aria-label="Application 下层的直接链接" title="Application 下层的直接链接">​</a></h2>
+<p>即应用层向传输层提供的服务：</p>
+<ol>
+<li>数据丢失率</li>
+<li>延迟</li>
+<li>吞吐</li>
+<li>安全性<!-- -->
+<ul>
+<li>完整</li>
+<li>可认证</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="http-message">HTTP Message<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#http-message" class="hash-link" aria-label="HTTP Message的直接链接" title="HTTP Message的直接链接">​</a></h3>
 <ul>
 <li><code>request line</code></li>
 <li><code>header line</code></li>
 <li><code>entity body</code></li>
 </ul>
-<p><a href="https://zhuqiandai.github.io/confucianism/assets/files/http-request-3708d5bfff091dc8833e7157ff118958.png" target="_blank">http-request</a></p>]]></content>
+<p><a href="https://zhuqiandai.github.io/confucianism/assets/files/http-request-format-3708d5bfff091dc8833e7157ff118958.png" target="_blank">http-request-format</a></p>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="world-wide-web">World Wide Web<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#world-wide-web" class="hash-link" aria-label="World Wide Web的直接链接" title="World Wide Web的直接链接">​</a></h3>
+<p>定义：基于 <code>Restful</code> 架构，以 <code>URI</code> 作为沟通依据，通过 <code>HTTP</code> 提供服务</p>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="tcp-之上的安全">TCP 之上的安全<a href="https://zhuqiandai.github.io/confucianism/blog/[Application]service-model#tcp-%E4%B9%8B%E4%B8%8A%E7%9A%84%E5%AE%89%E5%85%A8" class="hash-link" aria-label="TCP 之上的安全的直接链接" title="TCP 之上的安全的直接链接">​</a></h2>
+<p><code>SSL</code> 提供包括认证、私密、完整性等服务，<code>SSL over TCP</code></p>]]></content>
+        <category label="network" term="network"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web]cors]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Web]cors</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Web]cors"/>
+        <updated>2024-05-24T09:24:11.000Z</updated>
+        <summary type="html"><![CDATA[通过 URL 访问的对象资源不存在跨域，只有通过 ajax 才会有跨域资源访问问题。]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>通过 <code>URL</code> 访问的对象资源不存在跨域，只有通过 <code>ajax</code> 才会有跨域资源访问问题。</p>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Cross-origin_resource_sharing</a></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[CI.CD]model]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[CI.CD]model</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[CI.CD]model"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Chrome]network-pane]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+        <summary type="html"><![CDATA[组成]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="组成">组成<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BB%84%E6%88%90" class="hash-link" aria-label="组成的直接链接" title="组成的直接链接">​</a></h2>
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>控制器</td><td>Item2.1</td></tr><tr><td>过滤器</td><td>Item2.2</td></tr><tr><td>概览</td><td>Item2.3</td></tr><tr><td>请求列表</td><td>Item2.3</td></tr><tr><td>概要</td><td>Item2.3</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="网络活动">网络活动<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BD%91%E7%BB%9C%E6%B4%BB%E5%8A%A8" class="hash-link" aria-label="网络活动的直接链接" title="网络活动的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="网络功能">网络功能<a href="https://zhuqiandai.github.io/confucianism/blog/[Chrome]network-pane#%E7%BD%91%E7%BB%9C%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="网络功能的直接链接" title="网络功能的直接链接">​</a></h2>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[DNS]service-model]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[DNS]service-model</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[DNS]service-model"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[HTTP]URI]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+        <summary type="html"><![CDATA[URI 格式]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="uri-格式">URI 格式<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI#uri-%E6%A0%BC%E5%BC%8F" class="hash-link" aria-label="URI 格式的直接链接" title="URI 格式的直接链接">​</a></h2>
+<div class="codeBlockContainer_efmV theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_c0Ds"><pre tabindex="0" class="prism-code language-text codeBlock_GTIR thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_bi74"><span class="token-line" style="color:#393A34"><span class="token plain">scheme://username:password@host:port/path?query#fragment</span><br></span></code></pre><div class="buttonGroup_xs1K"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_JnLB" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_jnrS"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_jejL"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="uri-编码">URI 编码<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI#uri-%E7%BC%96%E7%A0%81" class="hash-link" aria-label="URI 编码的直接链接" title="URI 编码的直接链接">​</a></h2>
+<blockquote>
+<p>Why: <code>URI</code> 中保留字符，空格，中文，ASCII 中不包含的字符等需要传递，所以需要进行编码再查询</p>
+</blockquote>]]></content>
+        <author>
+            <name>诚知</name>
+            <uri>https://github.com/zhuqiandai</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[HTTP]form]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]form</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]form"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+        <author>
+            <name>诚知</name>
+            <uri>https://github.com/zhuqiandai</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[HTTP]service-model]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
+        <summary type="html"><![CDATA[术语]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="术语">术语<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#%E6%9C%AF%E8%AF%AD" class="hash-link" aria-label="术语的直接链接" title="术语的直接链接">​</a></h2>
+<p>定义：<em>web page</em> 是由对象组成。一个对象只是一个文件，而可以通过 <code>URL</code> 进行寻址。多数 <em>web page</em> 包含一个 <code>base HTML file</code>，引用的文件都是一个单独对象</p>
+<ol>
+<li>
+<p>URL <code>Uniform Resolution Locator</code> <a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]URI">uri</a></p>
+<p>Protocal://user<!-- -->:psw<!-- -->@<a href="http://www.somedomain.com/dir/pic.gif" target="_blank" rel="noopener noreferrer">www.somedomain.com/dir/pic.gif</a>:port</p>
+<p><strong>协议 用户:口令 主机名 路径 端口</strong></p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="http-hypertext-transfer-protocol">HTTP <code>HyperText Transfer Protocol</code><a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#http-hypertext-transfer-protocol" class="hash-link" aria-label="http-hypertext-transfer-protocol的直接链接" title="http-hypertext-transfer-protocol的直接链接">​</a></h2>
+<p>概念：<code>HTTP</code> 定义了 <em>web client</em> 向 <em>web server</em> 请求 <em>web page</em> 的方式，以及 <em>web server</em> 向 <em>web client</em> 传送 <em>web page</em> 的方式</p>
+<ol>
+<li>
+<p><code>HTTP</code> 使用 <code>client</code> / <code>server</code> 模式，多个连接请求 <code>server</code> 会创建多个 <code>socket</code></p>
+<ul>
+<li><code>client</code> 实现了 <code>http</code> 的客户端</li>
+<li><code>server</code> 实现了 <code>http</code> 的服务器，存储 <em>web object</em>，由 <code>URL</code> 进行寻址</li>
+</ul>
+</li>
+<li>
+<p><em>web server</em> 不存储 <em>web client</em> 的任何信息 <code>stateless protocal</code></p>
+</li>
+</ol>
+<blockquote>
+<p>默认方式大部分浏览器会打开 5 ~ 10 个并行的 <code>TCP</code> 连接</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="rtt-round-trip-time">RTT (Round Trip Time)<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#rtt-round-trip-time" class="hash-link" aria-label="RTT (Round Trip Time)的直接链接" title="RTT (Round Trip Time)的直接链接">​</a></h3>
+<p>定义：一个短分组从客户端到服务器，再返回到客户端所花费的时间</p>
+<ul>
+<li>非持久连接：一般情况文件传输 建立 TCP 连接需要一个 RTT，传递报文需要一个 RTT</li>
+<li>持久连接：流水线或者非流水线，可以并行使所有请求达到一个 RTT</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="http-message">HTTP Message<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#http-message" class="hash-link" aria-label="HTTP Message的直接链接" title="HTTP Message的直接链接">​</a></h2>
+<ol>
+<li>
+<p>请求报文</p>
+<p><code>request line = method SP request-target SP HTTP-version CRLF</code></p>
+<ul>
+<li>
+<p>request line</p>
+<ul>
+<li>METHOD (GET POST HEAD PUT DELETE OPTIONS)</li>
+<li>URL</li>
+<li>VERSION</li>
+</ul>
+</li>
+<li>
+<p>header line</p>
+</li>
+<li>
+<p><code>cr lf</code></p>
+</li>
+<li>
+<p>entity body</p>
+</li>
+</ul>
+</li>
+<li>
+<p>响应报文</p>
+<ul>
+<li>
+<p>status line</p>
+<ul>
+<li>VERSION</li>
+<li>STATUS CODE</li>
+<li>MESSAGE</li>
+</ul>
+</li>
+<li>
+<p>header line</p>
+</li>
+<li>
+<p><code>cr lf</code></p>
+</li>
+<li>
+<p>entity body</p>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><code>TCP</code> 不提供每个报文的边界，<code>HTTP</code> 要根据 <code>Content-Length</code> 自行区分</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_qb_P" id="response-status-code">Response Status Code<a href="https://zhuqiandai.github.io/confucianism/blog/[HTTP]service-model#response-status-code" class="hash-link" aria-label="Response Status Code的直接链接" title="Response Status Code的直接链接">​</a></h3>
+<table><thead><tr><th>code</th><th>description</th></tr></thead><tbody><tr><td>100</td><td>Continue 客户端 携带 <em>Expect: 100 continue</em> 头部</td></tr><tr><td>101</td><td>Switch Protocol 客户端携带 <em>upgrade</em> 头部，表示可升级请求</td></tr><tr><td>102</td><td>For WebDAV</td></tr></tbody></table>]]></content>
+        <author>
+            <name>诚知</name>
+            <uri>https://github.com/zhuqiandai</uri>
+        </author>
         <category label="network" term="network"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[[IP]ARP]]></title>
         <id>https://zhuqiandai.github.io/confucianism/blog/[IP]ARP</id>
         <link href="https://zhuqiandai.github.io/confucianism/blog/[IP]ARP"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <updated>2024-05-24T03:50:53.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[[IP]CIDR]]></title>
         <id>https://zhuqiandai.github.io/confucianism/blog/[IP]CIDR</id>
         <link href="https://zhuqiandai.github.io/confucianism/blog/[IP]CIDR"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <updated>2024-05-24T03:50:53.000Z</updated>
         <summary type="html"><![CDATA[Classless Inter-Domain Routing]]></summary>
         <content type="html"><![CDATA[<p><code>Classless Inter-Domain Routing</code></p>
 <h2 class="anchor anchorWithStickyNavbar_qb_P" id="定义">定义<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]CIDR#%E5%AE%9A%E4%B9%89" class="hash-link" aria-label="定义的直接链接" title="定义的直接链接">​</a></h2>
@@ -97,7 +464,7 @@
         <title type="html"><![CDATA[[IP]ICMP]]></title>
         <id>https://zhuqiandai.github.io/confucianism/blog/[IP]ICMP</id>
         <link href="https://zhuqiandai.github.io/confucianism/blog/[IP]ICMP"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <updated>2024-05-24T03:50:53.000Z</updated>
         <summary type="html"><![CDATA[Internet Control Message Protocol]]></summary>
         <content type="html"><![CDATA[<p><code>Internet Control Message Protocol</code></p>
 <h2 class="anchor anchorWithStickyNavbar_qb_P" id="定义">定义<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]ICMP#%E5%AE%9A%E4%B9%89" class="hash-link" aria-label="定义的直接链接" title="定义的直接链接">​</a></h2>
@@ -130,15 +497,15 @@
         <title type="html"><![CDATA[[IP]service-model]]></title>
         <id>https://zhuqiandai.github.io/confucianism/blog/[IP]service-model</id>
         <link href="https://zhuqiandai.github.io/confucianism/blog/[IP]service-model"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <updated>2024-05-24T03:50:53.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[NETWORK]model]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[NETWORK]model</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[NETWORK]model"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
+        <title type="html"><![CDATA[[Network]model]]></title>
+        <id>https://zhuqiandai.github.io/confucianism/blog/[Network]model</id>
+        <link href="https://zhuqiandai.github.io/confucianism/blog/[Network]model"/>
+        <updated>2024-05-24T03:50:53.000Z</updated>
         <summary type="html"><![CDATA[Layer]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="layer">Layer<a href="https://zhuqiandai.github.io/confucianism/blog/[NETWORK]model#layer" class="hash-link" aria-label="Layer的直接链接" title="Layer的直接链接">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="layer">Layer<a href="https://zhuqiandai.github.io/confucianism/blog/[Network]model#layer" class="hash-link" aria-label="Layer的直接链接" title="Layer的直接链接">​</a></h2>
 <blockquote>
 <p>分层的好处：<em>Layer is a functional component</em></p>
 </blockquote>
@@ -150,12 +517,12 @@
 <li>Continuous improvement</li>
 <li>Peer-to-peer communication</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="network">Network<a href="https://zhuqiandai.github.io/confucianism/blog/[NETWORK]model#network" class="hash-link" aria-label="Network的直接链接" title="Network的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="network">Network<a href="https://zhuqiandai.github.io/confucianism/blog/[Network]model#network" class="hash-link" aria-label="Network的直接链接" title="Network的直接链接">​</a></h2>
 <blockquote>
 <p>"The network's job is to transmit datagrams as efficiently and flexibly as possible. Everything else should be done at fringes"</p>
 </blockquote>
 <p>关于网络的封装，核心传输数据报 (高效和灵活)，其他内容应该由网络外层完成</p>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="style">Style<a href="https://zhuqiandai.github.io/confucianism/blog/[NETWORK]model#style" class="hash-link" aria-label="Style的直接链接" title="Style的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_qb_P" id="style">Style<a href="https://zhuqiandai.github.io/confucianism/blog/[Network]model#style" class="hash-link" aria-label="Style的直接链接" title="Style的直接链接">​</a></h2>
 <p>网络架构风格</p>
 <ol>
 <li>数据流</li>
@@ -164,92 +531,5 @@
 <li>移动代码</li>
 <li>点对点</li>
 </ol>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[TCP]service-model]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
-        <summary type="html"><![CDATA[向 Application Layer 提供的服务 Socket API]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>向 <code>Application Layer</code> 提供的服务 <code>Socket API</code></p>
-</blockquote>
-<table><thead><tr><th>Property</th><th>Behavior</th></tr></thead><tbody><tr><td>Stream of bytes</td><td>Reliable byte dilivery service</td></tr><tr><td>Reliable delivery</td><td>1. Acknowledgements indicate correct dilivery</td></tr><tr><td></td><td>2. Checksums detect corrupted data</td></tr><tr><td></td><td>3. Sequence numbers detect missing data</td></tr><tr><td></td><td>4. Flow-control prevents overruning receiver</td></tr><tr><td>In-sequence</td><td>Data delivered to application in sequence transmitted</td></tr><tr><td>Congestion Control</td><td>Controls network congestion</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="reliable-delivery">Reliable delivery<a href="https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model#reliable-delivery" class="hash-link" aria-label="Reliable delivery的直接链接" title="Reliable delivery的直接链接">​</a></h2>
-<ol>
-<li>保证传输</li>
-<li>保证内容</li>
-<li>保证无丢失</li>
-<li>保证在缓冲范围内接受</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="tcp-segement">TCP Segement<a href="https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model#tcp-segement" class="hash-link" aria-label="TCP Segement的直接链接" title="TCP Segement的直接链接">​</a></h2>
-<blockquote>
-<p>两个 <code>Stream</code> 之间的同步</p>
-</blockquote>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="tcp-segment-flags">TCP Segment Flags<a href="https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model#tcp-segment-flags" class="hash-link" aria-label="TCP Segment Flags的直接链接" title="TCP Segment Flags的直接链接">​</a></h3>
-<ol>
-<li><code>SYN</code>: 发送同步信号</li>
-<li><code>ACK</code>: 确认序列号有效</li>
-<li><code>FIN</code>: 连接的一端关闭</li>
-<li><code>PSH</code>: 连接的另一端立即传送数据</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="socket">Socket<a href="https://zhuqiandai.github.io/confucianism/blog/[TCP]service-model#socket" class="hash-link" aria-label="Socket的直接链接" title="Socket的直接链接">​</a></h2>
-<blockquote>
-<p>使用 传输层编程提供的 <code>Socket API</code> 实现自定义应用层的功能，可以使用 <code>TCP</code> 提供的服务</p>
-</blockquote>]]></content>
-        <category label="network" term="network"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[link-layer]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/link-layer</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/link-layer"/>
-        <updated>2024-05-24T03:22:09.806Z</updated>
-        <summary type="html"><![CDATA[Address Resolution Protocol ARP]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_qb_P" id="address-resolution-protocol-arp">Address Resolution Protocol <code>ARP</code><a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#address-resolution-protocol-arp" class="hash-link" aria-label="address-resolution-protocol-arp的直接链接" title="address-resolution-protocol-arp的直接链接">​</a></h2>
-<blockquote>
-<p>from <code>IP Address</code> to <code>MAC Address</code></p>
-</blockquote>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="dns-vs-arp"><code>DNS</code> vs. <code>ARP</code><a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#dns-vs-arp" class="hash-link" aria-label="dns-vs-arp的直接链接" title="dns-vs-arp的直接链接">​</a></h3>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="arp-table"><code>ARP</code> Table<a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#arp-table" class="hash-link" aria-label="arp-table的直接链接" title="arp-table的直接链接">​</a></h3>
-<ol>
-<li>广播形式查询 <code>ARP</code>，链路层帧形式响应 <code>ARP</code></li>
-<li><code>ARP Table</code> 是即插即用的，不需要维护，过了 <code>TTL</code> 之后，就会被清除</li>
-</ol>
-<blockquote>
-<p>TTL 通常是 20 分钟</p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="以太网协议">以太网协议<a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%8D%8F%E8%AE%AE" class="hash-link" aria-label="以太网协议的直接链接" title="以太网协议的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="ethernet-card-interface-网卡">Ethernet Card (Interface) (网卡)<a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#ethernet-card-interface-%E7%BD%91%E5%8D%A1" class="hash-link" aria-label="Ethernet Card (Interface) (网卡)的直接链接" title="Ethernet Card (Interface) (网卡)的直接链接">​</a></h3>
-<blockquote>
-<p>6 字节，16 进制表示</p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="链路层地址-mac-address">链路层地址 <code>MAC Address</code><a href="https://zhuqiandai.github.io/confucianism/blog/link-layer#%E9%93%BE%E8%B7%AF%E5%B1%82%E5%9C%B0%E5%9D%80-mac-address" class="hash-link" aria-label="链路层地址-mac-address的直接链接" title="链路层地址-mac-address的直接链接">​</a></h2>
-<blockquote>
-<p>NOTES: 主机和路由器并没有链路层地址，适配器 (<code>Interface</code>) 具有链路层地址</p>
-</blockquote>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[IP]NAT]]></title>
-        <id>https://zhuqiandai.github.io/confucianism/blog/[IP]NAT</id>
-        <link href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT"/>
-        <updated>2024-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[NAT#wiki]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://www.wikiwand.com/en/Network_address_translation" target="_blank" rel="noopener noreferrer">NAT#wiki</a></p>
-<p><code>Network Address Translation (RFC 1631)</code></p>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="原理">原理<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT#%E5%8E%9F%E7%90%86" class="hash-link" aria-label="原理的直接链接" title="原理的直接链接">​</a></h2>
-<p>控制 <code>IP</code> 数量，transform private address into unique public address</p>
-<blockquote>
-<p><code>NAT</code> 提供其他很多传输控制功能，之后补充</p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="特点">特点<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT#%E7%89%B9%E7%82%B9" class="hash-link" aria-label="特点的直接链接" title="特点的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="nat-translation-table">NAT Translation Table<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT#nat-translation-table" class="hash-link" aria-label="NAT Translation Table的直接链接" title="NAT Translation Table的直接链接">​</a></h3>
-<p><code>NAT Router</code> 维护一张表，包含 <code>PORT and IP Address</code></p>
-<p><code>IP Packet</code> 都有源地址和目的地址。从私有网络发送到公共网络的 <code>IP Packet</code> 需要修改，而从公共网络传递回私有网络的 <code>IP Packet</code> 也需要修改，这里的修改包括 <code>address</code> 和 <code>port</code></p>
-<h3 class="anchor anchorWithStickyNavbar_qb_P" id="private-network-address-rfc-1918">Private Network Address (RFC 1918)<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT#private-network-address-rfc-1918" class="hash-link" aria-label="Private Network Address (RFC 1918)的直接链接" title="Private Network Address (RFC 1918)的直接链接">​</a></h3>
-<p>内部通信不能和公网通信，<code>Private Address</code> 可能嵌套，拨号获取的可以是公网 <code>IP</code> 或者运营商的私网 <code>IP</code></p>
-<blockquote>
-<p><code>Virtual Private Network</code>: 利用公用的互联网作为本机构各专用网之间的通信载体，VPN 通过隧道连接到一起</p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_qb_P" id="使用">使用<a href="https://zhuqiandai.github.io/confucianism/blog/[IP]NAT#%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="使用的直接链接" title="使用的直接链接">​</a></h2>]]></content>
     </entry>
 </feed>
