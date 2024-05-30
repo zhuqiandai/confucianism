@@ -39,5 +39,5 @@ tags: [network]
 
 > Chrome Devtools 中提供缓存位置，客户端缓存包括 `Memory Cache` 和 `Disk Cache`
 
-- Cache-Control and Expires
+- `Cache-Control` and `Expires`
 
