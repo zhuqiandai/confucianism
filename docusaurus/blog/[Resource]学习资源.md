@@ -7,6 +7,7 @@ tag: [resource]
 1. [Teach Yourself](https://teachyourselfcs.com/) 
 2. [The Missing Semester](https://missing.csail.mit.edu/) 
 3. [Linux C编程一站式学习](https://akaedu.github.io/book/index.html)
+4. [learnvimscriptthehardway](https://learnvimscriptthehardway.stevelosh.com/)
 
 ### 数据库系统
 
@@ -15,6 +16,7 @@ tag: [resource]
 
 ### 计算机网络
 
+1. [计算机网络分层课程](https://qige.io/network/network.html#)
 
 ### 软件设计
 
