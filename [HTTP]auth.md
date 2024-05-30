@@ -16,12 +16,23 @@ tags: [network]
 
 ### Basic 认证
 
+使用 `Authorization: Basic user:pass` 格式传递
+
 ---
 
 ### Bear 认证
 
-> Jwt 组成
+使用 `Authorization: Bearer <token>` 格式传递
 
-1. HEADER: ALGORITHM & TOKEN TYPE
-2. PAYLOAD: DATA
-3. VERIFY SIGNATURE
+---
+
+#### JWT 组成
+
+    1. HEADER: ALGORITHM & TOKEN TYPE
+    2. PAYLOAD: DATA
+    3. VERIFY SIGNATURE
+
+---
+
+#### JWT 使用
+
