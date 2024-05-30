@@ -1,18 +1,17 @@
 ---
-tag: [resource]
+tags: [学习资源]
 ---
 
 ### 计算机基础
 
-1. [Teach Yourself](https://teachyourselfcs.com/) 
-2. [The Missing Semester](https://missing.csail.mit.edu/) 
+1. [Teach Yourself](https://teachyourselfcs.com/)
+2. [The Missing Semester](https://missing.csail.mit.edu/)
 3. [Linux C编程一站式学习](https://akaedu.github.io/book/index.html)
 4. [learnvimscriptthehardway](https://learnvimscriptthehardway.stevelosh.com/)
 
 ### 数据库系统
 
 1. CS186
-
 
 ### 计算机网络
 
@@ -22,8 +21,7 @@ tag: [resource]
 
 > 在建筑之前是否应该学习如何建筑
 
-1. [AOSA](https://aosabook.org/en/index.html) 
-
+1. [AOSA](https://aosabook.org/en/index.html)
 
 ### 程序设计
 

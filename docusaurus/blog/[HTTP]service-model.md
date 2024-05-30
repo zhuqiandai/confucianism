@@ -7,7 +7,7 @@ authors: chengzhi
 
 定义：_web page_ 是由对象组成。一个对象只是一个文件，而可以通过 `URL` 进行寻址。多数 _web page_ 包含一个 `base HTML file`，引用的文件都是一个单独对象
 
-1. URL `Uniform Resolution Locator` [uri](./[HTTP]URI.md) 
+1. URL `Uniform Resolution Locator` [uri](./[HTTP]URI.md)
 
    Protocal://user:psw@www.somedomain.com/dir/pic.gif:port
 

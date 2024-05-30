@@ -9,7 +9,7 @@ authors: chengzhi
 
     - Connection: keep-alive | close
     - Host
-        
+
         > http1.1 需要一个 host 头部
 
     - Content-Length: TCP 不提供
@@ -57,7 +57,6 @@ authors: chengzhi
 
         > 基于长连接推送动态内容给客户端; 压缩内容可以同步发送；
 
-
 ### 6. Chunked transfer encoding
 
     - chunk-body = *chunk , last-chunk, trailer-part CRLF
@@ -69,14 +68,12 @@ authors: chengzhi
     - last-chunk = "0" CRLF
     - trailer-part = *(header-field CRLF)
 
-
 ### 7. MIME Multipurpose Internet Mail Extensions
 
     - Content-Type: type / subtype (parameters)
         - type := discrete-type | composite-type
         - subtype 子类型
-    - Content-Disposition: diposition-type 
+    - Content-Disposition: diposition-type
         - disposition-type := "inline" | "attachment"
-        
-        > 指定浏览器将包体作为附件下载
 
+        > 指定浏览器将包体作为附件下载
