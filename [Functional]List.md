@@ -29,4 +29,6 @@ let rec map f x =
 
 ## Tuple (Bounded) (By position)
 
+> Pairs are tuples that have two elements
+
 ---
