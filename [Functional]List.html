@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="C">
   <head>
-    <title>[HTTP]缓存</title>
-    <meta property="og:title" content="[HTTP]缓存" />
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -503,9 +501,10 @@
           display: grid;
           font-family: Helvetica, Arial, sans-serif;
           grid-template: "current dragbar next" minmax(140px, 1fr) "current dragbar note" 2fr "info    dragbar note" 3em;
-          grid-template-columns:
-            minmax(3px, var(--bespoke-marp-presenter-split-ratio, 66%))
-            0 minmax(3px, 1fr);
+          grid-template-columns: minmax(
+              3px,
+              var(--bespoke-marp-presenter-split-ratio, 66%)
+            ) 0 minmax(3px, 1fr);
           height: 100%;
           left: 0;
           position: absolute;
@@ -2687,80 +2686,41 @@
       <svg data-marpit-svg="" viewBox="0 0 1280 720">
         <foreignObject width="1280" height="720"
           ><section id="1" lang="C">
-            <h2
-              id="%E6%9D%A1%E4%BB%B6%E8%AF%B7%E6%B1%82-condition-get-%E4%B8%8E-%E6%9D%A1%E4%BB%B6%E9%AA%8C%E8%AF%81"
-            >
-              条件请求 (Condition GET) 与 条件验证
-            </h2>
+            <h2 id="list">List</h2>
           </section>
         </foreignObject></svg
       ><svg data-marpit-svg="" viewBox="0 0 1280 720">
         <foreignObject width="1280" height="720"
           ><section id="2" lang="C">
-            <h3 id="%E6%9D%A1%E4%BB%B6%E9%AA%8C%E8%AF%81">条件验证</h3>
-            <blockquote>
-              <p>
-                根据条件验证判断是否需要 建立缓存，更新缓存，使用缓存，增量更新
-              </p>
-            </blockquote>
-            <ul>
-              <li>
-                <p>ETag</p>
-                <ol>
-                  <li>强验证器 <code>ETag: &quot;tag value&quot;</code></li>
-                  <li>弱验证器 <code>ETag: W/&quot;tag value&quot;</code></li>
-                </ol>
-              </li>
-              <li>
-                <p>Last-Modified: <code>HTTP-date</code></p>
-                <ul>
-                  <li>
-                    <code>if-Modified-Since</code>: 与
-                    <code>Last-Modified</code> 比对
-                  </li>
-                  <li>
-                    <code>if-UnModified-Since</code>: 与
-                    <code>Last-Modified</code> 比对
-                  </li>
-                  <li><code>if-None-Match</code>: 与 <code>ETag</code> 比对</li>
-                  <li><code>if-Match</code>: 与 <code>ETag</code> 比对</li>
-                </ul>
-                <blockquote>
-                  <p>未通过的请求会有 <code>412</code> 的响应码</p>
-                </blockquote>
-              </li>
-              <li>
-                <p>Content-Range</p>
-                <ul>
-                  <li>
-                    <code>if-Ragne</code>: 与
-                    <code>ETag</code> 比对进行大文件增量请求
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <p>
+              函数式编程中列表用单链表实现，所以一些方法
+              <code>head (fst)</code>
+              <code>tail (snd)</code>
+              变得合理。使用一个指针指向链表头部，递归应用于链表其他部分的方法变得容易实现
+            </p>
+            <pre is="marp-pre" data-auto-scaling="downscale-only">
+              <code class="language-ocaml"
+                ><span class="hljs-number">1</span> :: [<span
+                  class="hljs-number"
+                  >2</span
+                >; <span class="hljs-number">3</span>;
+                <span class="hljs-number">4</span>;
+                <span class="hljs-number">5</span>]
+
+                <span class="hljs-keyword">let</span>
+                <span class="hljs-keyword">rec</span> sum lst =
+                <span class="hljs-keyword">match</span> lst
+                <span class="hljs-keyword">with</span> |
+                <span class="hljs-literal">[]</span> -&gt;
+                <span class="hljs-number">0</span>
+                | h :: t -&gt; h + sum t
+              </code>
+            </pre>
           </section>
         </foreignObject></svg
       ><svg data-marpit-svg="" viewBox="0 0 1280 720">
         <foreignObject width="1280" height="720"
-          ><section id="3" lang="C">
-            <h2 id="%E7%BC%93%E5%AD%98">缓存</h2>
-          </section>
-        </foreignObject></svg
-      ><svg data-marpit-svg="" viewBox="0 0 1280 720">
-        <foreignObject width="1280" height="720"
-          ><section id="4" lang="C">
-            <h3 id="%E7%BC%93%E5%AD%98%E6%8E%A7%E5%88%B6">缓存控制</h3>
-            <blockquote>
-              <p>
-                Chrome Devtools 中提供缓存位置，客户端缓存包括
-                <code>Memory Cache</code> 和 <code>Disk Cache</code>
-              </p>
-            </blockquote>
-            <ul>
-              <li><code>Cache-Control</code> and <code>Expires</code></li>
-            </ul>
-          </section>
+          ><section id="3" lang="C"></section>
           <script>
             !(function () {
               "use strict";
