@@ -1,1 +1,2 @@
-# confucianism-excalidraw
+# open-post
+open-post

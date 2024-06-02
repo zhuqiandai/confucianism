@@ -1,0 +1,10 @@
+---
+tags: [funcational]
+---
+
+
+## Scope
+
+---
+
+## Lamda

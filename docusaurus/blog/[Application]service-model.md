@@ -65,6 +65,6 @@ tags: [network]
 
 定义：基于 `Restful` 架构，以 `URI` 作为沟通依据，通过 `HTTP` 提供服务
 
-## TCP 之上的安全
+## Application 安全
 
 `SSL` 提供包括认证、私密、完整性等服务，`SSL over TCP`

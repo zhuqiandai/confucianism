@@ -8,6 +8,8 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies
 
 https://en.wikipedia.org/wiki/HTTP_cookie
 
+---
+
 ## cookie 模型
 
 ![cookie](./assets/cookie.png)
@@ -21,6 +23,8 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 
 > RFC 中 cookie 小于 4kb
 
+---
+
 ## cookie 使用
 
 > cookie 与 seesion 相结合，session 是服务器端维护的会话状态
@@ -31,8 +35,6 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 
 - `cookie`: SP cookie-string \*(cookie-pair)
 
-## session 使用
+- `set-cookie: session=xxxx` 使用 cookie 传递 session
 
-`set-cookie: session=xxxx`
 
-## HTTP 中的状态管理
