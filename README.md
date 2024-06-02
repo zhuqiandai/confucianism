@@ -1,2 +1,0 @@
-# open-post
-open-post
