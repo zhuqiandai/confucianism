@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[2056],{6099:s=>{s.exports=JSON.parse('{"tags":[{"label":"network","permalink":"/confucianism/blog/tags/network","count":3}]}')}}]);
