@@ -13,5 +13,55 @@ tags: [algorithm]
 
 ## 实现
 
-```typescript 
+```typescript
+const graph = {
+  "u": ["x", "v"],
+  "v": ["y"],
+  "w": ["y", "z"],
+  "x": ["v"],
+  "y": ["x"],
+  "z": [],
+};
+
+type kog = keyof typeof graph;
+
+const dfs = (g: typeof graph) => {
+  const visited = new Set<kog>();
+  const finished = new Set<kog>();
+
+  let time = 0;
+
+  const visitedTime = new Map();
+  const finishedTime = new Map();
+
+  const topoStack: kog[] = [];
+
+  const rec = (key: kog) => {
+    if (!visited.has(key)) {
+      visited.add(key);
+      time += 1;
+      visitedTime.set(key, time);
+      console.log("current visited", key);
+
+      for (const neighbor of g[key]) {
+        rec(neighbor as kog);
+      }
+
+      finished.add(key);
+      time += 1;
+      finishedTime.set(key, time);
+      console.log("current finished", key);
+    }
+  };
+
+  // every vertex
+  for (const v of Object.keys(g)) {
+    rec(v as kog);
+  }
+
+  console.log("visitedTime Map", visitedTime);
+  console.log("finishedTime Map", finishedTime);
+};
+
+dfs(graph);
 ```
