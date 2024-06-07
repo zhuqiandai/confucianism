@@ -12,4 +12,4 @@ tags: [algorithm]
 
 ## 实现
 
-> `Kosaraju`  
+> `Kosaraju` 
