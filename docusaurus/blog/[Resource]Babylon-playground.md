@@ -1,4 +1,1 @@
-
-
-
-[shader](https://playground.babylonjs.com/#69NROJ#1)  
+[shader](https://playground.babylonjs.com/#69NROJ#1)

@@ -8,4 +8,3 @@ Monad is **type constructor**，with two methods
 
 1. `construct`: 构造一个 monad
 2. `sequence`: 队列在 monad 中传递
-

@@ -17,16 +17,15 @@ let rec sum lst =
         | h :: t -> h + sum t
 
 let rec map f x =
-    match x with 
+    match x with
         | [] -> []
         | h :: t -> f h :: map f t
 ```
----
 
+---
 
 - `elementa :: lstb` means cons. 操作元素是 `elementa` 复杂度 `O(1)` 插入到列表开头
 - `lsta @ lstb` means append. 操作元素是 `lstb`，复杂度 `O(lsta)` 合并两个列表
-
 
 ---
 

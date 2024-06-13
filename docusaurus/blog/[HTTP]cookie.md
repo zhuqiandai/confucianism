@@ -36,5 +36,3 @@ https://en.wikipedia.org/wiki/HTTP_cookie
 - `cookie`: SP cookie-string \*(cookie-pair)
 
 - `set-cookie: session=xxxx` 使用 cookie 传递 session
-
-

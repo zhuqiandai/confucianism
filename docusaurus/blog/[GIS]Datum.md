@@ -15,7 +15,7 @@ tags: [gis]
 
 ## GCS (geographic coordinate system)
 
-radial lines of latitude and longitude with a reference ellipsoid 
+radial lines of latitude and longitude with a reference ellipsoid
 
 通过一个参照椭球体，使用经纬度的方式表示的坐标系统
 
@@ -24,9 +24,8 @@ radial lines of latitude and longitude with a reference ellipsoid
 大地坐标系中的坐标表示方法
 
 - 经纬度
-    - 赤道
-    - 本初子午线
-    
+  - 赤道
+  - 本初子午线
 - 空间直角坐标 (L B H)
 
 ---
@@ -37,7 +36,7 @@ Datum 地球椭球面
 
 > Global: WGS 84; Global: CGCS 2000 ; Local: NAD 83 (North American Datum 1983); Local: Beijing 1954 Xian 1980
 
- - 长半轴 a
- - 短半轴 b
- - 扁率 alpha = (a - b) / a
- - 第一偏心率 $\sqrt{}$
+- 长半轴 a
+- 短半轴 b
+- 扁率 alpha = (a - b) / a
+- 第一偏心率 $\sqrt{}$
