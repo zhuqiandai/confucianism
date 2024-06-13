@@ -40,3 +40,7 @@ tags: [shader]
 
 - `abs`
 - `floor`
+- `ceil`
+- `round`
+- `fract`
+- `mod`
