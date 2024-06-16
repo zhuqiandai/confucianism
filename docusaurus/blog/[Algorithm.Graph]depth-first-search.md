@@ -15,12 +15,12 @@ tags: [algorithm]
 
 ```typescript
 const graph = {
-  "u": ["x", "v"],
-  "v": ["y"],
-  "w": ["y", "z"],
-  "x": ["v"],
-  "y": ["x"],
-  "z": [],
+  u: ["x", "v"],
+  v: ["y"],
+  w: ["y", "z"],
+  x: ["v"],
+  y: ["x"],
+  z: [],
 };
 
 type kog = keyof typeof graph;

@@ -16,14 +16,14 @@ tags: [algorithm]
 
 ```typescript
 const graph = {
-  "s": ["r", "w"],
-  "r": ["s", "v"],
-  "v": ["r"],
-  "w": ["s", "t", "x"],
-  "t": ["w", "x", "u"],
-  "x": ["w", "t", "y", "u"],
-  "u": ["t", "y", "x"],
-  "y": ["x", "u"],
+  s: ["r", "w"],
+  r: ["s", "v"],
+  v: ["r"],
+  w: ["s", "t", "x"],
+  t: ["w", "x", "u"],
+  x: ["w", "t", "y", "u"],
+  u: ["t", "y", "x"],
+  y: ["x", "u"],
 };
 type kog = keyof typeof g;
 
@@ -33,28 +33,23 @@ const breathFirstSearch = (g: typeof graph) => {
   const finished = new Set();
 
   // entry point
-  const point = "s" as kog
-  queue.push(point)
-  visited.add(point)
+  const point = "s" as kog;
+  queue.push(point);
+  visited.add(point);
 
   while (queue.length) {
-
     const v = queue.shift() as kog;
     const neighbors = g[v];
 
     for (const n of neighbors) {
       if (!visited.has(n)) {
-        visited.add(n)
+        visited.add(n);
 
-        queue.push(n as kog)
+        queue.push(n as kog);
       }
     }
 
-    finished.add(v)
+    finished.add(v);
   }
 };
 ```
-
-
-
-

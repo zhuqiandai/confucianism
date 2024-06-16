@@ -33,5 +33,4 @@ tags: [学习资源]
 1. [Beej's Guide to C](https://beej.us/guide/)
 2. [算法笔记](https://web.ntnu.edu.tw/~algo/)
 
-
 ### 深度学习
