@@ -37,6 +37,15 @@ e.g. As the noun acts as a predictive
 
 Positions： 
 
+often appears after the word it modifies
+
+  - People in the town purchase their necessities from the shops
+
+
+phrase that modify verds: very beginning or very end of the sentence
+
+  - In the letter he was asked to call the station
+
 ## prepositional and adverb 介词和副词
 
 1. 通常 prepostional 后面会接宾语
