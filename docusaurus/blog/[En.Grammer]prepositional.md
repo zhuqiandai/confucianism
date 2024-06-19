@@ -5,7 +5,9 @@ date: 2024-06-19
 
 ##  prepositional phrase 介词短语
 
-Definition: **Prepositional phrase** modify nouns and verbs, indicating various realtionships between subjects and verbs.
+Definition: 
+
+  - **Prepositional phrase** modify nouns and verbs, indicating various realtionships between subjects and verbs.
 
 Functions:
 
