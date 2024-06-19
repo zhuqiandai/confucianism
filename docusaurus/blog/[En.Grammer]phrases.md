@@ -37,12 +37,12 @@ e.g. As the noun acts as a predictive
 
 Positions： 
 
-often appears after the word it modifies
+- often appears after the word it modifies
 
-  - People in the town purchase their necessities from the shops
+  - People in the town purchase their necessities from the shops (modify noun.)
+  - A famous actor in a play was once cast in the role of demon. (modify verb.)
 
-
-phrase that modify verds: very beginning or very end of the sentence
+- phrase that modify verds: very beginning or very end of the sentence
 
   - In the letter he was asked to call the station
 
