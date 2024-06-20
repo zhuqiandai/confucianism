@@ -9,6 +9,7 @@ tags: [学习资源]
 3. [Linux C编程一站式学习](https://akaedu.github.io/book/index.html)
 
 4. [learnvimscriptthehardway](https://learnvimscriptthehardway.stevelosh.com/)
+5. The Art of command line
 
    > 一直在找的 vimscript 教程
 

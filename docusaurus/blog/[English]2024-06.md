@@ -44,6 +44,9 @@
 - cross the road : why did the chicken cross the road?
 - they are exactly the same as they were the day before.
 
+- analogy : These analogies between Java and OCaml are necessarily imperfect.
+- compilation : A team of four was involved in the compilation of the book.
+
 ## course
 
 https://www.youtube.com/watch?v=Kl1J8nXbdHs&list=PLnAmx3ElMTP006CwC7_JDJgYKUNGb39b_
