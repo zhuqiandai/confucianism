@@ -3,6 +3,8 @@ tags: [english]
 status: draft
 ---
 
+[participial-phrases](https://www.grammarly.com/blog/participial-phrases/) 
+
 ## participial phrases
 
 words that made of verbs but don't act like verbs => **verbals**

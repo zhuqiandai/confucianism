@@ -39,6 +39,10 @@
 - cautious : I’m _cautious about_ trusting anyone new, but I don’t have much choice.
 
 - prime : in the prime of his life
+- excessive : an excessive display of wealth
+
+- cross the road : why did the chicken cross the road?
+- they are exactly the same as they were the day before.
 
 ## course
 
