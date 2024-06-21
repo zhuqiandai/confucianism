@@ -30,7 +30,6 @@ e.g. Dressed in the outfit chosen by her parents, Alice covered her face so peop
 
 ## participial phrase vs. gerund phrase
 
-
 Participial phrase: Swimming in the lake, the fish were happy. ( act as adjective and modify noun )
 
 Gerund phrase: Swimming in the lake is what fish do all day. ( act as individual noun )
