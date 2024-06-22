@@ -47,8 +47,6 @@
 - analogy : These analogies between Java and OCaml are necessarily imperfect.
 - compilation : A team of four was involved in the compilation of the book.
 
-### [English]2024-06-21.md
-
 ## course
 
 ### ST English
