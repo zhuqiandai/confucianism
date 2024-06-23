@@ -1,3 +1,9 @@
+---
+id: "[English]2024-06"
+aliases: []
+tags: []
+---
+
 ## voca
 
 - accustomed
@@ -25,11 +31,14 @@
 - treasure : stories about pirates often include a search for burried treasure.
 
 - nest : e.g. Not knowing whether it could fly, the young bird jumped out of the nest for the first time.
-- compliment : Boys in the Midwest grow up without a word of praise, their parents fearful that a compliment might make them vain.
+- compliment : 
+    - Boys in the Midwest grow up without a word of praise, their parents fearful that a compliment might make them vain.
+    - He complained that his husband never paid him any compliments anymore.
 
 - auxiliary : In "I will go," the word "will" is an auxiliary verb.
 
-- authentic : Having eaten authentic tacos in Mexico, Andrew stopped enjoying Taco Bell.
+- authentic : 
+    - Having eaten authentic tacos in Mexico, Andrew stopped enjoying Taco Bell.
 
 - restrictive : During the Trump years, the public strongly rejected his restrictive immigration policies.
 - migration : 
@@ -46,6 +55,8 @@
 
 - analogy : These analogies between Java and OCaml are necessarily imperfect.
 - compilation : A team of four was involved in the compilation of the book.
+
+### [English]2024-06-21.md
 
 ## course
 
