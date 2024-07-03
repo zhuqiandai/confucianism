@@ -1,3 +1,3 @@
 # open-post
 
-open-post
+- [ ] open-post
