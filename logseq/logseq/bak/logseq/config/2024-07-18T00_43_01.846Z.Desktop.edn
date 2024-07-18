@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["E2024-07-01"]
+ :favorites ["BABYLON PG" "尚水数能" "E2024-07-01"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -419,5 +419,7 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :graph/settings {:journal? false}
+ :graph/settings {:journal? true
+ :builtin-pages? false
+ :excluded-pages? true}
  :journal/page-title-format "yyyy-MM-dd"}

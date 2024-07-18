@@ -1,1 +1,2 @@
 category:: functional
+tag:: blog
