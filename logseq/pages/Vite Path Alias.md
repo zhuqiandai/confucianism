@@ -1,4 +1,5 @@
--
+category:: build
+
 - ## Vite
 -
 - ```json
