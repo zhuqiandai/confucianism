@@ -1,0 +1,158 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e30-82b4-4e5e-997f-42b266eeaace"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e30-82b4-4e5e-997f-42b266eeaace"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e30-d61d-4a3d-810e-04263a090d19"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e30-d61d-4a3d-810e-04263a090d19"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e30-7b63-41b7-a3fe-efef8458a0e5"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e30-7b63-41b7-a3fe-efef8458a0e5"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e30-7b45-4bd4-be15-af023ed2e19e"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e30-7b45-4bd4-be15-af023ed2e19e"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e3e-4f7b-4c27-8a0d-8f4c4d367107"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e41-9bc2-4e42-aebb-016306d022f3"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e40-21be-4040-ae46-1d815461c6ef"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e40-21be-4040-ae46-1d815461c6ef"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e40-dd91-49e9-96ab-7f1b5cded577"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e40-dd91-49e9-96ab-7f1b5cded577"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e40-95c2-4caf-a1ad-061c06d0d247"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-1b18-406e-9fa6-0c42f177a936"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e41-b9de-45f8-9fb8-9b9c221c12a7"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e41-b9de-45f8-9fb8-9b9c221c12a7"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e41-1f0c-460d-b700-e396e492855f"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e41-1f0c-460d-b700-e396e492855f"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e41-9bc2-4e42-aebb-016306d022f3"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-b39c-4b3b-bfe3-38d7a8b5ff8c"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-5dc3-470a-8674-1b996ba13c49"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-5dc3-470a-8674-1b996ba13c49"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-ef4b-48ac-8ee1-dac2410f101a"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-ef4b-48ac-8ee1-dac2410f101a"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-1b18-406e-9fa6-0c42f177a936"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e4d-accc-48e4-813d-f3323fdf460e"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-33f7-488a-b28e-3050ab91ae11"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-33f7-488a-b28e-3050ab91ae11"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-666d-4b3c-9ef6-b76056a082d7"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e46-666d-4b3c-9ef6-b76056a082d7"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e46-b39c-4b3b-bfe3-38d7a8b5ff8c"} 
+{:block/content "[shell]\nprogram=\"C:\\\\Windows\\\\System32\\\\wsl.exe\"\nargs=[\"--cd\", \"~\"]"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e3e-4f7b-4c27-8a0d-8f4c4d367107"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e4d-ccd6-4014-a9a0-31f9bc065837"} 
+{:block/content "[font]\nnormal = { family = \"JetBrainsMonoNL Nerd Font\" }\nbold = { family = \"JetBrainsMonoNL Nerd Font\" }\nitalic = { family = \"JetBrainsMonoNL Nerd Font\" }\nsize = 14\noffset = { x = 0, y = 5 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e4d-ccd6-4014-a9a0-31f9bc065837"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e4d-08e9-4fc1-9253-6b4f5c0adfdf"} 
+{:block/content "[window]\npadding = { x = 8, y = 8 }"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66b56e4d-08e9-4fc1-9253-6b4f5c0adfdf"}
+:block/parent 
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"}
+:block/uuid #uuid "66b56e4d-accc-48e4-813d-f3323fdf460e"})
+:pages (
+{:block/uuid #uuid "66b56e1d-28da-46e4-9b51-fa0028cba65d"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66b56e1d-28da-46e4-9b51-fa0028cba65d"
+:name "window application configuration"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ()}}
+:block/updated-at 1723166293367
+:block/created-at 1723166237246
+:block/type "whiteboard"
+:block/name "windows application configuration"
+:block/original-name "Windows Application Configuration"})}
