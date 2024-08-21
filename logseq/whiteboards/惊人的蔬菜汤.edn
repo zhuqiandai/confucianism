@@ -1,0 +1,419 @@
+{:blocks (
+{:block/content "小南瓜\n胡萝卜\n卷心菜\n地瓜\n豆腐\n西红柿\n白萝卜\n芹菜\n青椒\n茼蒿\n西兰花\n菠菜\n\n玉米\n冬瓜\n娃娃菜\n黄瓜\n干蘑菇（平菇）"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2b7df-dfe3-47af-8c4d-3d4dd70eaf80"} 
+{:block/created-at 1724038579332
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "66c2b7df-dfe3-47af-8c4d-3d4dd70eaf80"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [232 448.68703484257446]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b8b937c0-5dd8-11ef-a0bf-c1465a034fac"
+:noFill false
+:point [216 184]
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:collapsedHeight 0
+:nonce 1724037088337}}
+:block/updated-at 1724038579332} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2b7df-dfe3-47af-8c4d-3d4dd70eaf80"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2b988-5bb7-4b4a-8317-052e8ae5b63c"} 
+{:block/content "菜谱"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2b988-5bb7-4b4a-8317-052e8ae5b63c"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2bbf8-865f-4c38-877e-82739f746ea6"} 
+{:block/created-at 1724038412478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "66c2bbf8-865f-4c38-877e-82739f746ea6"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [64 40.69009032072384]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "29d1a1c0-5ddb-11ef-a0bf-c1465a034fac"
+:noFill false
+:point [272 -8]
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:collapsedHeight 0
+:nonce 1724038135809}}
+:block/updated-at 1724038412478} 
+{:block/content "王兆旭"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2bbf8-865f-4c38-877e-82739f746ea6"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2bc1c-e78f-4751-9b10-5ac5eee7cba1"} 
+{:block/created-at 1724038412478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "66c2bc1c-e78f-4751-9b10-5ac5eee7cba1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [80 40.69009032072384]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3f6ddbc0-5ddb-11ef-a0bf-c1465a034fac"
+:noFill false
+:point [-32 120]
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:collapsedHeight 0
+:nonce 1724038171607}}
+:block/updated-at 1724038412478} 
+{:block/content "张羽云"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2bc1c-e78f-4751-9b10-5ac5eee7cba1"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2bc25-9dd9-4b20-912a-428b6ae16fab"} 
+{:block/created-at 1724038412478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "66c2bc25-9dd9-4b20-912a-428b6ae16fab"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [72 40.69009032072384]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "44d75b40-5ddb-11ef-a0bf-c1465a034fac"
+:noFill false
+:point [616 120]
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:collapsedHeight 0
+:nonce 1724038181089}}
+:block/updated-at 1724038412478} 
+{:block/created-at 1724038412478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "5535b9a2-5ddb-11ef-a0bf-c1465a034fac"
+:fontWeight 400
+:noFill true
+:point [52 27.27]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [219 0]
+:bindingId "5535b9a0-5ddb-11ef-a0bf-c1465a034fac"}
+:end 
+{:id "end"
+:canBind true
+:point [0 99.03]
+:bindingId "5535b9a1-5ddb-11ef-a0bf-c1465a034fac"}}
+:decorations 
+{:end "arrow"}
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:nonce 1724038208154
+:italic false}}
+:block/updated-at 1724038412478} 
+{:block/created-at 1724038412478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "5820cba2-5ddb-11ef-a0bf-c1465a034fac"
+:fontWeight 400
+:noFill true
+:point [337 24.97]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "5820cba0-5ddb-11ef-a0bf-c1465a034fac"}
+:end 
+{:id "end"
+:canBind true
+:point [275 105.21]
+:bindingId "5820cba1-5ddb-11ef-a0bf-c1465a034fac"}}
+:decorations 
+{:end "arrow"}
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:nonce 1724038213050
+:italic false}}
+:block/updated-at 1724038412478} 
+{:block/created-at 1724038579338
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "00999c32-5ddc-11ef-a0bf-c1465a034fac"
+:fontWeight 400
+:noFill true
+:point [304.83 33.69]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "00999c30-5ddc-11ef-a0bf-c1465a034fac"}
+:end 
+{:id "end"
+:canBind true
+:point [5.72 146.31]
+:bindingId "00999c31-5ddc-11ef-a0bf-c1465a034fac"}}
+:decorations 
+{:end "arrow"}
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:nonce 1724038495753
+:italic false}}
+:block/updated-at 1724038579338} 
+{:block/content "0819\n\n南瓜\n胡萝卜\n\n豆腐\n青椒\n红洋葱\n青甘蓝\n苦瓜\n老姜"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66c2bc25-9dd9-4b20-912a-428b6ae16fab"}
+:block/parent 
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"}
+:block/properties 
+{}
+:block/uuid #uuid "66c2f9b1-df5d-48fb-9bd5-ee290b9e23e5"} 
+{:block/created-at 1724057933197
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "66c2f9b1-df5d-48fb-9bd5-ee290b9e23e5"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 280.68574540910026]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f393fb60-5dff-11ef-a0bf-c1465a034fac"
+:noFill false
+:point [-672 216]
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:collapsedHeight 0
+:nonce 1724053935903}}
+:block/updated-at 1724057933197} 
+{:block/created-at 1724057933204
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "0e167b22-5e00-11ef-a0bf-c1465a034fac"
+:fontWeight 400
+:noFill true
+:point [-268 157.67]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [235 0]
+:bindingId "0e167b20-5e00-11ef-a0bf-c1465a034fac"}
+:end 
+{:id "end"
+:canBind true
+:point [0 99.31]
+:bindingId "0e167b21-5e00-11ef-a0bf-c1465a034fac"}}
+:decorations 
+{:end "arrow"}
+:parentId "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:nonce 1724053980193
+:italic false}}
+:block/updated-at 1724057933204})
+:pages (
+{:block/uuid #uuid "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66c2b7b2-b953-44fa-a25c-2fa1b49a9184"
+:name "惊人的蔬菜汤"
+:bindings 
+{:5535b9a0-5ddb-11ef-a0bf-c1465a034fac 
+{:id "5535b9a0-5ddb-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "5535b9a2-5ddb-11ef-a0bf-c1465a034fac"
+:toId "29d1a1c0-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:5820cba0-5ddb-11ef-a0bf-c1465a034fac 
+{:id "5820cba0-5ddb-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "5820cba2-5ddb-11ef-a0bf-c1465a034fac"
+:toId "29d1a1c0-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:5820cba1-5ddb-11ef-a0bf-c1465a034fac 
+{:id "5820cba1-5ddb-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "5820cba2-5ddb-11ef-a0bf-c1465a034fac"
+:toId "44d75b40-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "end"
+:point [0.73 0.75]
+:distance 4}
+:5535b9a1-5ddb-11ef-a0bf-c1465a034fac 
+{:id "5535b9a1-5ddb-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "5535b9a2-5ddb-11ef-a0bf-c1465a034fac"
+:toId "3f6ddbc0-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "end"
+:point [0.39 0.71]
+:distance 4}
+:00999c30-5ddc-11ef-a0bf-c1465a034fac 
+{:id "00999c30-5ddc-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "00999c32-5ddc-11ef-a0bf-c1465a034fac"
+:toId "29d1a1c0-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:00999c31-5ddc-11ef-a0bf-c1465a034fac 
+{:id "00999c31-5ddc-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "00999c32-5ddc-11ef-a0bf-c1465a034fac"
+:toId "b8b937c0-5dd8-11ef-a0bf-c1465a034fac"
+:handleId "end"
+:point [0.45 0.53]
+:distance 4}
+:0e167b20-5e00-11ef-a0bf-c1465a034fac 
+{:id "0e167b20-5e00-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "0e167b22-5e00-11ef-a0bf-c1465a034fac"
+:toId "3f6ddbc0-5ddb-11ef-a0bf-c1465a034fac"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:0e167b21-5e00-11ef-a0bf-c1465a034fac 
+{:id "0e167b21-5e00-11ef-a0bf-c1465a034fac"
+:type "line"
+:fromId "0e167b22-5e00-11ef-a0bf-c1465a034fac"
+:toId "f393fb60-5dff-11ef-a0bf-c1465a034fac"
+:handleId "end"
+:point [0.34 0.55]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("b8b937c0-5dd8-11ef-a0bf-c1465a034fac" "29d1a1c0-5ddb-11ef-a0bf-c1465a034fac" "3f6ddbc0-5ddb-11ef-a0bf-c1465a034fac" "44d75b40-5ddb-11ef-a0bf-c1465a034fac" "5535b9a2-5ddb-11ef-a0bf-c1465a034fac" "5820cba2-5ddb-11ef-a0bf-c1465a034fac" "00999c32-5ddc-11ef-a0bf-c1465a034fac" "f393fb60-5dff-11ef-a0bf-c1465a034fac" "0e167b22-5e00-11ef-a0bf-c1465a034fac")}}
+:block/updated-at 1724057939070
+:block/created-at 1724037042042
+:block/type "whiteboard"
+:block/name "惊人的蔬菜汤"
+:block/original-name "惊人的蔬菜汤"})}
