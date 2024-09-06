@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["BABYLON PG" "尚水数能" "E2024-07-01"]
+ :favorites ["编辑器" "生产力" "论语" "庄子" "W2024-07-22" "记录" "尚水数能"]
 
  ;; Set flashcards interval.
  ;; Expected value:

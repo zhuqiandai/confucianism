@@ -8,3 +8,9 @@
 - {{query (property :tag "vim")}}
   query-table:: true
   query-properties:: [:page :tag]
+  query-sort-by:: page
+  query-sort-desc:: false
+-
+- {{query (property :tag "unix")}}
+  query-table:: true
+  query-properties:: [:page :tag]

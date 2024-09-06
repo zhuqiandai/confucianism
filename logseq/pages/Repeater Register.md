@@ -1,0 +1,35 @@
+tag:: vim
+
+-
+- ## `:reg`
+-
+- ### Read-only registers
+-
+- `".` : last inserted text  （ 在 insert mode 使用 `ctrl-a` ）
+- `"%` : current file
+- `"#` : alternate file
+- `":` : recent executed command-line （ 在 command-line mode 使用 `@:` 重复上一条命令 ）
+-
+- ### Last Search register
+-
+- `"/`
+-
+- ### Small delete register
+-
+- `"-` : small delete register shorter than one line
+-
+- ### Numbered registers
+- `"0` : yank register
+- `"1` : big delete register longer than one line
+-
+- ### Default register
+-
+- `""` : default register
+-
+- ### Name registers
+-
+- `[a-zA-Z]`
+-
+- ### Black hole register
+-
+- `"_`

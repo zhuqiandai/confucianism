@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["E2024-07-01"]
+ :favorites ["生产力" "论语" "庄子" "W2024-07-22" "记录" "尚水数能"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -421,5 +421,5 @@
  :file/name-format :triple-lowbar
  :graph/settings {:journal? true
  :builtin-pages? false
- :excluded-pages? false}
+ :excluded-pages? true}
  :journal/page-title-format "yyyy-MM-dd"}
