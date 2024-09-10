@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["editor" "编辑器" "生产力" "论语" "庄子" "记录" "尚水数能"]
+ :favorites ["editor" "生产力" "论语" "庄子" "记录" "尚水数能"]
 
  ;; Set flashcards interval.
  ;; Expected value:
