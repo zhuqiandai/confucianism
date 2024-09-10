@@ -1,11 +1,12 @@
 tag:: vim
+status:: done
 
 -
 - ## `:reg`
 -
 - ### Read-only registers
 -
-- `".` : last inserted text  （ 在 insert mode 使用 `ctrl-a` ）
+- `".` : last inserted text  （ 在 insert mode 使用 `ctrl-a` 调用该寄存器 ）
 - `"%` : current file
 - `"#` : alternate file
 - `":` : recent executed command-line （ 在 command-line mode 使用 `@:` 重复上一条命令 ）
@@ -19,6 +20,7 @@ tag:: vim
 - `"-` : small delete register shorter than one line
 -
 - ### Numbered registers
+-
 - `"0` : yank register
 - `"1` : big delete register longer than one line
 -
@@ -28,9 +30,10 @@ tag:: vim
 -
 - ### Name registers
 -
-- `[a-zA-Z]`
+- `[a-zA-Z]` : 使用宏
 -
 - ### Black hole register
 -
 - `"_`
+-
 -

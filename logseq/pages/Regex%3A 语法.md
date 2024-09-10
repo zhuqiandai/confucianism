@@ -1,8 +1,7 @@
 category:: 计算机
-tag:: regex
+tag:: unix
 
 - ## Common Token
-
 - ### 匹配用的 token
   
   `\w` : 字符 `[0-9A-Za-z_]`
