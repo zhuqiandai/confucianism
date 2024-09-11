@@ -2,6 +2,7 @@ category:: 计算机
 tag:: unix
 
 - ## Common Token
+-
 - ### 匹配用的 token
   
   `\w` : 字符 `[0-9A-Za-z_]`
@@ -12,6 +13,7 @@ tag:: unix
   `[]` : single character of
   `[-]` : single character in range**0**
   `[^]` : 取反
+-
 - ### 修饰用的 token
   
   `?` : 0 | 1 `{0,1}`
@@ -19,19 +21,23 @@ tag:: unix
   `+` : 1 + `{1,}`
   `{}` :
   `|` : either
+-
 - ### 限定用的 token
   
   `^` : start of string
   `$` : end of string
   `\b` : boundary
+-
 - ### 分组用的 token 
   
   `(...)` : 捕获分组
   `(?...)`
+-
 - ## Common Flag
   
   `g` : global case
   `i` : ignore case
+-
 - ## Tips
   
   `^$` : 空白行
