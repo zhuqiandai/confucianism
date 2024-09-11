@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["随笔" "编程" "读书" "系统" "unix" "生产力" "记录" "尚水数能"]
+ :favorites ["随笔" "读书" "编程" "系统" "unix" "生产力" "记录" "尚水数能"]
 
  ;; Set flashcards interval.
  ;; Expected value:

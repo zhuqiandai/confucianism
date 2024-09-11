@@ -12,6 +12,11 @@ status:: doing
 - `@@`
 - `{range} normal @{register}` : 并行执行 （并行执行在每一行）
 -
+- ### 在多个文件中执行
+	- `:bufdo normal @{register}`
+	- `:argo normal @{register}`
+- > 熟悉 `wa` `wn` 命令
+-
 - ## 修改宏
 -
 - ### 追加
@@ -23,5 +28,7 @@ status:: doing
 -
 - 使用 `:put {register}` 获取寄存器内容
 - 使用 `"{register} yank` 复制回寄存器
+-
+- > 尽量使用 `yank` 复制回寄存器，使用 `dd` 等行操作会同时携带换行符
 -
 -
