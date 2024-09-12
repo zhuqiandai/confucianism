@@ -1,5 +1,5 @@
 tag:: vue
-status:: todo
+status:: done
 
 - [vuejs](https://vuejs.org/api/)
 -
@@ -22,6 +22,8 @@ status:: todo
   
   // toRefs(): from a reactive object => plin object where each property is a ref pointing (created using `toRef()`)
   
-  // toValue(): normalize values/refs/getters into refs
+  // toValue(): normalize values/refs/getters into values
+  
+  // unref(): normalize ref into values
   ```
 -

@@ -36,4 +36,10 @@ status:: done
 -
 - `"_`
 -
+- ### expression register
+  id:: 66e0e69f-5a0f-4429-910b-1440ece501c3
+- > 执行一段 `VIM` 脚本，并返回结果
+-
+- `"=`
+- `<C-a>` `<C-x>` 表达式计算语法糖
 -

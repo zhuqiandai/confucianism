@@ -3,6 +3,7 @@ status:: doing
 
 -
 - ## 记录宏
+-
 - `q{register}`
 - `:reg {register}`
 -
@@ -30,5 +31,13 @@ status:: doing
 - 使用 `"{register} yank` 复制回寄存器
 -
 - > 尽量使用 `yank` 复制回寄存器，使用 `dd` 等行操作会同时携带换行符
+-
+- ## 使用宏
+-
+- 使用 `let` 创建变量
+- 使用 `echo` 查看 `VIM` 中的变量
+- 使用 `<C-r> =i` 在插入模式下使用 `expression register` 获取该变量
+-
+- ((66e0e69f-5a0f-4429-910b-1440ece501c3))
 -
 -

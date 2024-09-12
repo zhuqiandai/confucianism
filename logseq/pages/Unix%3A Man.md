@@ -4,7 +4,9 @@ status:: doing
 -
 -
 - ## `man`
--
+- `-k`
+- `-K`
+- `section`
 -
 -
 - ## `whatis`
