@@ -4,40 +4,40 @@ tag:: unix
 - ## Common Token
 -
 - ### 匹配用的 token
-  
-  `\w` : 字符 `[0-9A-Za-z_]`
-  `\s` : 空格
-  `\d` : 数字 `[0-9]`
-  `.` : single character
-  
-  `[]` : single character of
-  `[-]` : single character in range**0**
-  `[^]` : 取反
+	-
+	- `\w` : 字符 `[0-9A-Za-z_]`
+	- `\s` : 空格
+	- `\d` : 数字 `[0-9]`
+	- `.` : single character
+	-
+	- `[]` : single character of
+	- `[-]` : single character in range**0**
+	- `[^]` : 取反
 -
 - ### 修饰用的 token
-  
-  `?` : 0 | 1 `{0,1}`
-  `*` : any  `{0,}`
-  `+` : 1 + `{1,}`
-  `{}` :
-  `|` : either
+	-
+	- `?` : 0 | 1 `{0,1}`
+	- `*` : any  `{0,}`
+	- `+` : 1 + `{1,}`
+	- `{}` :
+	- `|` : either
 -
 - ### 限定用的 token
-  
-  `^` : start of string
-  `$` : end of string
-  `\b` : boundary
+	- `^` : start of string
+	- `$` : end of string
+	- `\b` : boundary
 -
-- ### 分组用的 token 
-  
-  `(...)` : 捕获分组
-  `(?...)`
+- ### 分组用的 token
+	-
+	- `(...)` : 捕获分组
+	- `(?...)`
 -
 - ## Common Flag
-  
-  `g` : global case
-  `i` : ignore case
+	-
+	- `g` : global case
+	- `i` : ignore case
 -
 - ## Tips
-  
-  `^$` : 空白行
+	-
+	- `^$` : 空白行
+-

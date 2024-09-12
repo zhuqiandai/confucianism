@@ -21,7 +21,7 @@ status:: done
 - ### 替换
 -
 - ```bash
-  sed 's/regexp/replacement/g' inputFileName > outputFileName
+  sed 's/regex/replacement/g' inputFileName > outputFileName
   ```
 -
 - ## `awk`
