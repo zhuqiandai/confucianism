@@ -1,6 +1,8 @@
 category:: 计算机
 tag:: unix
+status:: done
 
+-
 - ## Common Token
 -
 - ### 匹配用的 token
