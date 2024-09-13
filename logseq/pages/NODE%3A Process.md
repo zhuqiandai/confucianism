@@ -1,7 +1,3 @@
-tag:: node
+tags:: node
 
 -
--
--
-- lorem
-- lorem

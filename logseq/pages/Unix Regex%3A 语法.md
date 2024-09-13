@@ -1,5 +1,5 @@
 category:: 计算机
-tag:: unix
+tags:: unix
 status:: done
 
 -

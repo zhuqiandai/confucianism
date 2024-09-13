@@ -1,2 +1,2 @@
-tag:: unix
+tags:: unix
 status:: todo

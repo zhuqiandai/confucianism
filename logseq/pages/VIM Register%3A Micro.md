@@ -1,4 +1,4 @@
-tag:: vim
+tags:: vim
 status:: doing
 
 -

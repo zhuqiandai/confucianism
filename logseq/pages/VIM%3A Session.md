@@ -1,2 +1,2 @@
-tag:: vim
+tags:: vim
 status:: todo

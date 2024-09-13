@@ -1,4 +1,4 @@
-tag:: unix
+tags:: unix
 
 -
 - ## `/etc/passwd`

@@ -1,0 +1,55 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66e3d304-302e-465f-9156-fce7519c2e11"}
+:block/parent 
+{:block/uuid #uuid "66e3d304-302e-465f-9156-fce7519c2e11"}
+:block/properties 
+{}
+:block/uuid #uuid "66e3d318-d917-41d1-8396-f166e08a72a7"} 
+{:block/created-at 1726206760627
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "66e3d318-d917-41d1-8396-f166e08a72a7"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [568 40.8203125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "557bf420-7194-11ef-ad42-2fd7b01ab40f"
+:noFill false
+:point [424 344]
+:parentId "66e3d304-302e-465f-9156-fce7519c2e11"
+:collapsedHeight 0
+:nonce 1726206737643}}
+:block/updated-at 1726206760627})
+:pages (
+{:block/uuid #uuid "66e3d304-302e-465f-9156-fce7519c2e11"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66e3d304-302e-465f-9156-fce7519c2e11"
+:name "饮食"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("557bf420-7194-11ef-ad42-2fd7b01ab40f")}}
+:block/updated-at 1726206766911
+:block/created-at 1726206724044
+:block/type "whiteboard"
+:block/name "饮食"
+:block/original-name "饮食"})}
