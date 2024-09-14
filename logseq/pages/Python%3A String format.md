@@ -4,3 +4,11 @@ status:: doing
 -
 - https://pyformat.info/
 -
+- ## string format prefixes
+-
+- `r''` : raw string
+- `u''` : unicode string
+-
+-
+-
+-

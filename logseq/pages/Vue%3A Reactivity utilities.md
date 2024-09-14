@@ -1,4 +1,4 @@
-tag:: vue
+tags::  vue
 status:: done
 
 - [vuejs](https://vuejs.org/api/)

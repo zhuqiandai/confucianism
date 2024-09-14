@@ -1,3 +1,3 @@
-tag:: web
+tags::  web
 
 -
