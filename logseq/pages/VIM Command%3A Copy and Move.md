@@ -1,5 +1,7 @@
 tags:: vim
+status:: todo
 
+-
 - > 《VIM 实用技巧》`27 - 29`
 - ## `:copy` :  `:t`
 -
