@@ -5,14 +5,14 @@ status:: todo
 - ## `curl`
 -
 - ```bash
-  # -X : method
+  # -X METHOD : method
   
   # -o : output
   # -u : user
   
-  # -H : header
-  # -d : data
+  # -H --header : header
+  # -d --data : data
+  
   ```
--
 -
 -
