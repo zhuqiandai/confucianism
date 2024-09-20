@@ -1,5 +1,9 @@
 category:: mdn
+tags:: javascript
+status:: todo
 
+-
+-
 -
 - > 常用的简单位运算
 -

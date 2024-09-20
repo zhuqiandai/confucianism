@@ -1,0 +1,119 @@
+{:blocks (
+{:block/created-at 1726800955230
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [264 96]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "React Inner"
+:id "d5b2abe0-76fb-11ef-bc3e-296dd8bfa46d"
+:fontWeight 400
+:noFill false
+:point [496 136]
+:fontSize 20
+:parentId "66ecdd75-bc9d-4b24-9a24-d665f3bead81"
+:nonce 1726800946723
+:italic false}}
+:block/updated-at 1726800955230} 
+{:block/created-at 1726800956790
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 1
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [264 96]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "dbc2f2b0-76fb-11ef-bc3e-296dd8bfa46d"
+:fontWeight 400
+:noFill false
+:point [496 332]
+:fontSize 20
+:parentId "66ecdd75-bc9d-4b24-9a24-d665f3bead81"
+:nonce 1726800956763
+:italic false}}
+:block/updated-at 1726800956790} 
+{:block/created-at 1726800956791
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "dbc319c0-76fb-11ef-bc3e-296dd8bfa46d"
+:fontWeight 400
+:noFill true
+:point [628 233]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "dbc319c1-76fb-11ef-bc3e-296dd8bfa46d"}
+:end 
+{:id "end"
+:canBind true
+:point [0 95]
+:bindingId "dbc319c2-76fb-11ef-bc3e-296dd8bfa46d"}}
+:decorations 
+{:end "arrow"}
+:parentId "66ecdd75-bc9d-4b24-9a24-d665f3bead81"
+:nonce 1726800956766
+:italic false}}
+:block/updated-at 1726800956791})
+:pages (
+{:block/uuid #uuid "66ecdd75-bc9d-4b24-9a24-d665f3bead81"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66ecdd75-bc9d-4b24-9a24-d665f3bead81"
+:name "react inner"
+:bindings 
+{:dbc319c1-76fb-11ef-bc3e-296dd8bfa46d 
+{:id "dbc319c1-76fb-11ef-bc3e-296dd8bfa46d"
+:type "line"
+:fromId "dbc319c0-76fb-11ef-bc3e-296dd8bfa46d"
+:toId "d5b2abe0-76fb-11ef-bc3e-296dd8bfa46d"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:dbc319c2-76fb-11ef-bc3e-296dd8bfa46d 
+{:id "dbc319c2-76fb-11ef-bc3e-296dd8bfa46d"
+:type "line"
+:fromId "dbc319c0-76fb-11ef-bc3e-296dd8bfa46d"
+:toId "dbc2f2b0-76fb-11ef-bc3e-296dd8bfa46d"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("d5b2abe0-76fb-11ef-bc3e-296dd8bfa46d" "dbc2f2b0-76fb-11ef-bc3e-296dd8bfa46d" "dbc319c0-76fb-11ef-bc3e-296dd8bfa46d")}}
+:block/updated-at 1726800975412
+:block/created-at 1726799221838
+:block/type "whiteboard"
+:block/name "react inner"
+:block/original-name "React Inner"})}
