@@ -874,7 +874,67 @@
 :parentId "66f124cf-3e3b-43d6-bd06-340cfb7dde88"
 :nonce 1727082209603
 :italic false}}
-:block/updated-at 1727082256407})
+:block/updated-at 1727082256407} 
+{:block/created-at 1727083759073
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "blue"
+:borderRadius 2
+:index 29
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill "blue"
+:type "box"
+:size [240 96]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "RootState"
+:id "45ca56a0-798e-11ef-ae72-8f0e4cad2187"
+:fontWeight 400
+:noFill false
+:point [668 520]
+:fontSize 20
+:parentId "66f124cf-3e3b-43d6-bd06-340cfb7dde88"
+:nonce 1727083743529
+:italic false}}
+:block/updated-at 1727083759073} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 30
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "45ca7db0-798e-11ef-ae72-8f0e4cad2187"
+:fontWeight 400
+:noFill true
+:point [1128 568]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "45ca7db1-798e-11ef-ae72-8f0e4cad2187"}
+:end 
+{:id "end"
+:canBind true
+:point [-340 0]
+:bindingId "45ca7db2-798e-11ef-ae72-8f0e4cad2187"}}
+:decorations 
+{:end "arrow"}
+:parentId "66f124cf-3e3b-43d6-bd06-340cfb7dde88"
+:nonce 1727083743499
+:italic false}}
+:block/updated-at 1727083743503})
 :pages (
 {:block/uuid #uuid "66f124cf-3e3b-43d6-bd06-340cfb7dde88"
 :block/properties 
@@ -969,6 +1029,14 @@
 :fromId "bf38f640-7984-11ef-ae72-8f0e4cad2187"
 :toId "bf38cf30-7984-11ef-ae72-8f0e4cad2187"
 :handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:45ca7db1-798e-11ef-ae72-8f0e4cad2187 
+{:id "45ca7db1-798e-11ef-ae72-8f0e4cad2187"
+:type "line"
+:fromId "45ca7db0-798e-11ef-ae72-8f0e4cad2187"
+:toId "330f32a0-7985-11ef-ae72-8f0e4cad2187"
+:handleId "start"
 :point [0.5 0.5]
 :distance 4}
 :c85f2fa2-7984-11ef-ae72-8f0e4cad2187 
@@ -1106,11 +1174,19 @@
 :toId "6dc4d750-7986-11ef-ae72-8f0e4cad2187"
 :handleId "end"
 :point [0.5 0.5]
+:distance 4}
+:45ca7db2-798e-11ef-ae72-8f0e4cad2187 
+{:id "45ca7db2-798e-11ef-ae72-8f0e4cad2187"
+:type "line"
+:fromId "45ca7db0-798e-11ef-ae72-8f0e4cad2187"
+:toId "45ca56a0-798e-11ef-ae72-8f0e4cad2187"
+:handleId "end"
+:point [0.5 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("b97e4980-7984-11ef-ae72-8f0e4cad2187" "bf38cf30-7984-11ef-ae72-8f0e4cad2187" "bf38f640-7984-11ef-ae72-8f0e4cad2187" "c85f2fa0-7984-11ef-ae72-8f0e4cad2187" "c85f2fa1-7984-11ef-ae72-8f0e4cad2187" "f15bbd60-7984-11ef-ae72-8f0e4cad2187" "f15be470-7984-11ef-ae72-8f0e4cad2187" "02afc660-7985-11ef-ae72-8f0e4cad2187" "02afc661-7985-11ef-ae72-8f0e4cad2187" "330f32a0-7985-11ef-ae72-8f0e4cad2187" "330f59b0-7985-11ef-ae72-8f0e4cad2187" "49e35060-7985-11ef-ae72-8f0e4cad2187" "49e37770-7985-11ef-ae72-8f0e4cad2187" "54fe7bf0-7985-11ef-ae72-8f0e4cad2187" "54fe7bf1-7985-11ef-ae72-8f0e4cad2187" "3b4179a0-7986-11ef-ae72-8f0e4cad2187" "3b41a0b0-7986-11ef-ae72-8f0e4cad2187" "645b5360-7986-11ef-ae72-8f0e4cad2187" "645b7a70-7986-11ef-ae72-8f0e4cad2187" "6dc4d750-7986-11ef-ae72-8f0e4cad2187" "6dc4d751-7986-11ef-ae72-8f0e4cad2187" "fdc27ef0-7988-11ef-ae72-8f0e4cad2187" "fdc27ef1-7988-11ef-ae72-8f0e4cad2187" "8ca424b0-798a-11ef-ae72-8f0e4cad2187" "8ca44bc0-798a-11ef-ae72-8f0e4cad2187" "af7801a0-798a-11ef-ae72-8f0e4cad2187" "b382db80-798a-11ef-ae72-8f0e4cad2187" "b382db81-798a-11ef-ae72-8f0e4cad2187" "af77da90-798a-11ef-ae72-8f0e4cad2187")}}
-:block/updated-at 1727082259891
+:shapes-index ("b97e4980-7984-11ef-ae72-8f0e4cad2187" "bf38cf30-7984-11ef-ae72-8f0e4cad2187" "bf38f640-7984-11ef-ae72-8f0e4cad2187" "c85f2fa0-7984-11ef-ae72-8f0e4cad2187" "c85f2fa1-7984-11ef-ae72-8f0e4cad2187" "f15bbd60-7984-11ef-ae72-8f0e4cad2187" "f15be470-7984-11ef-ae72-8f0e4cad2187" "02afc660-7985-11ef-ae72-8f0e4cad2187" "02afc661-7985-11ef-ae72-8f0e4cad2187" "330f32a0-7985-11ef-ae72-8f0e4cad2187" "330f59b0-7985-11ef-ae72-8f0e4cad2187" "49e35060-7985-11ef-ae72-8f0e4cad2187" "49e37770-7985-11ef-ae72-8f0e4cad2187" "54fe7bf0-7985-11ef-ae72-8f0e4cad2187" "54fe7bf1-7985-11ef-ae72-8f0e4cad2187" "3b4179a0-7986-11ef-ae72-8f0e4cad2187" "3b41a0b0-7986-11ef-ae72-8f0e4cad2187" "645b5360-7986-11ef-ae72-8f0e4cad2187" "645b7a70-7986-11ef-ae72-8f0e4cad2187" "6dc4d750-7986-11ef-ae72-8f0e4cad2187" "6dc4d751-7986-11ef-ae72-8f0e4cad2187" "fdc27ef0-7988-11ef-ae72-8f0e4cad2187" "fdc27ef1-7988-11ef-ae72-8f0e4cad2187" "8ca424b0-798a-11ef-ae72-8f0e4cad2187" "8ca44bc0-798a-11ef-ae72-8f0e4cad2187" "af7801a0-798a-11ef-ae72-8f0e4cad2187" "b382db80-798a-11ef-ae72-8f0e4cad2187" "b382db81-798a-11ef-ae72-8f0e4cad2187" "af77da90-798a-11ef-ae72-8f0e4cad2187" "45ca56a0-798e-11ef-ae72-8f0e4cad2187" "45ca7db0-798e-11ef-ae72-8f0e4cad2187")}}
+:block/updated-at 1727083759087
 :block/created-at 1727079631092
 :block/type "whiteboard"
 :block/name "react source code"
