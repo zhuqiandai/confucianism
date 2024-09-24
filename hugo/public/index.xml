@@ -15,6 +15,7 @@
       <guid>http://localhost:1313/posts/reactrootrender/</guid>
       <description>&lt;h2 id=&#34;11-render-phrase&#34;&gt;1.1 Render phrase&lt;/h2&gt;
 &lt;h2 id=&#34;12-commit-phrase&#34;&gt;1.2 Commit phrase&lt;/h2&gt;
+&lt;h3 id=&#34;121-post&#34;&gt;1.2.1 &lt;code&gt;post&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;finishConcurrentRender&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/lanes.png&#34; alt=&#34;react lanes&#34;  /&gt;
 &lt;/p&gt;</description>
