@@ -1,12 +1,17 @@
 +++
+title = "ReactRootRender"
 date = 2024-09-24
 categories = ["ReactDeep"]
+description = ""
 +++
 
 
 
-## Render phrase
+## 1.1 Render phrase
 
 
-## Commit phrase
+## 1.2 Commit phrase
 
+`finishConcurrentRender`
+
+![react lanes](/lanes.png) 

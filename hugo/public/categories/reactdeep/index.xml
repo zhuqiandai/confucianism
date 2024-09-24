@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ReactDeep on My New Hugo Site</title>
+    <title>ReactDeep on Hugo</title>
     <link>http://localhost:1313/categories/reactdeep/</link>
-    <description>Recent content in ReactDeep on My New Hugo Site</description>
+    <description>Recent content in ReactDeep on Hugo</description>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 12:40:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/reactdeep/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ReactFiberRoot</title>
-      <link>http://localhost:1313/posts/reactfiberroot/</link>
+      <title>ReactRootRender</title>
+      <link>http://localhost:1313/posts/reactrootrender/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reactrootrender/</guid>
+      <description>&lt;h2 id=&#34;11-render-phrase&#34;&gt;1.1 Render phrase&lt;/h2&gt;
+&lt;h2 id=&#34;12-commit-phrase&#34;&gt;1.2 Commit phrase&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;finishConcurrentRender&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/lanes.png&#34; alt=&#34;react lanes&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ReactRootCreate</title>
+      <link>http://localhost:1313/posts/reactrootcreate/</link>
       <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/reactfiberroot/</guid>
+      <guid>http://localhost:1313/posts/reactrootcreate/</guid>
       <description>&lt;h2 id=&#34;fiber&#34;&gt;Fiber&lt;/h2&gt;</description>
     </item>
   </channel>
