@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>洞箫 on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/%E6%B4%9E%E7%AE%AB/</link>
+    <description>Recent content in 洞箫 on My New Hugo Site</description>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Sep 2024 12:40:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%B4%9E%E7%AE%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/reactrootrender/</link>
-      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reactrootrender/</guid>
-      <description>&lt;h2 id=&#34;render-phrase&#34;&gt;Render phrase&lt;/h2&gt;
-&lt;h2 id=&#34;commit-phrase&#34;&gt;Commit phrase&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>ReactFiberRoot</title>
-      <link>http://localhost:1313/posts/reactfiberroot/</link>
-      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/reactfiberroot/</guid>
-      <description>&lt;h2 id=&#34;fiber&#34;&gt;Fiber&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>洞箫 第一步</title>
       <link>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%B8%80%E6%AD%A5/</link>
       <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
       <guid>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%B8%80%E6%AD%A5/</guid>

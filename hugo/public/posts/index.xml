@@ -4,21 +4,34 @@
     <title>Posts on My New Hugo Site</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
-    <image>
-      <title>My New Hugo Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Sep 2024 12:40:24 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>洞箫 气震音</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>ReactFiberRoot</title>
+      <link>http://localhost:1313/posts/reactfiberroot/</link>
       <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/reactfiberroot/</guid>
+      <description>&lt;h2 id=&#34;fiber&#34;&gt;Fiber&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>洞箫 第一步</title>
+      <link>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%B8%80%E6%AD%A5/</link>
+      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%B8%80%E6%AD%A5/</guid>
+      <description>&lt;h2 id=&#34;口风&#34;&gt;口风&lt;/h2&gt;
+&lt;h2 id=&#34;腹部&#34;&gt;腹部&lt;/h2&gt;
+&lt;h2 id=&#34;通道&#34;&gt;通道&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>洞箫 第二步</title>
+      <link>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%BA%8C%E6%AD%A5/</link>
+      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%BA%8C%E6%AD%A5/</guid>
+      <description>&lt;h2 id=&#34;口风&#34;&gt;口风&lt;/h2&gt;
+&lt;h2 id=&#34;腹部&#34;&gt;腹部&lt;/h2&gt;
+&lt;h2 id=&#34;通道&#34;&gt;通道&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,13 +4,23 @@
     <title>Categories on My New Hugo Site</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
-    <image>
-      <title>My New Hugo Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 20 Sep 2024 12:40:24 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReactDeep</title>
+      <link>http://localhost:1313/categories/reactdeep/</link>
+      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
+      <guid>http://localhost:1313/categories/reactdeep/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>洞箫</title>
+      <link>http://localhost:1313/categories/%E6%B4%9E%E7%AE%AB/</link>
+      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E6%B4%9E%E7%AE%AB/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
