@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: CHENG
+title: Chengzhi
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -73,7 +73,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: 
+    Title: 程之
     Content: 夏葛而冬裘，饥食而渴饮，节嗜欲，定心气 
 
   socialIcons:

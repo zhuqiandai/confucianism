@@ -65,13 +65,13 @@ function createChildReconciler() {
 
 ### 1.7 `reconcileSingleElement` and `createFiberFromElement`
 
-### 1.8 `updateFunctionComponent`
+### 1.8 `updateFunctionComponent` 
 
-> `FunctionComponent` 函数组件
+> `FunctionComponent` 函数组件 `FiberNode tags`
 
 ### 1.9 `updateHostComponent`
 
-> `HostComponent` 原生组件
+> `HostComponent` 原生组件 `FiberNode tags`
 
 
 ## 2. Commit phrase

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ReactDeep on CHENG</title>
+    <title>ReactDeep on Chengzhi</title>
     <link>http://localhost:1313/categories/reactdeep/</link>
-    <description>Recent content in ReactDeep on CHENG</description>
+    <description>Recent content in ReactDeep on Chengzhi</description>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
@@ -59,7 +59,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;17-reconcilesingleelement-and-createfiberfromelement&#34;&gt;1.7 &lt;code&gt;reconcileSingleElement&lt;/code&gt; and &lt;code&gt;createFiberFromElement&lt;/code&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;18-updatefunctioncomponent&#34;&gt;1.8 &lt;code&gt;updateFunctionComponent&lt;/code&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;FunctionComponent&lt;/code&gt; 函数组件&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;FunctionComponent&lt;/code&gt; 函数组件 &lt;code&gt;FiberNode tags&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ReactRootCreate</title>
