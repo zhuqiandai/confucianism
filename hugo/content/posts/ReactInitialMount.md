@@ -73,5 +73,16 @@ function createChildReconciler() {
 
 > `HostComponent` 原生组件 `FiberNode tags`
 
-
 ## 2. Commit phrase
+
+### 2.1 `commitMutationEffects`
+
+![](/react-before-commit.png)
+
+### 2.2 `commitReconciliationEffects`
+
+### 2.3 `commitHostPlacement => commitPlacement`
+
+### 2.4 `insertOrAppendPlacementNodeIntoContainer`
+
+### 2.5 `insertInContainerBefore` and `appendChildToContainer`
