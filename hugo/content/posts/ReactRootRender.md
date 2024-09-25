@@ -67,7 +67,11 @@ function createChildReconciler() {
 
 ### 1.8 `updateFunctionComponent`
 
+> `FunctionComponent` 函数组件
+
 ### 1.9 `updateHostComponent`
+
+> `HostComponent` 原生组件
 
 
 ## 2. Commit phrase

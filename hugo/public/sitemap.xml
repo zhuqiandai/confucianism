@@ -29,11 +29,9 @@
     <loc>http://localhost:1313/posts/%E6%B4%9E%E7%AE%AB%E7%AC%AC%E4%BA%8C%E6%AD%A5/</loc>
     <lastmod>2024-09-20T12:40:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024-09-25/</loc>
+    <loc>http://localhost:1313/posts/bfs/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/algorithm/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/daily/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/dfs/</loc>
   </url><url>
