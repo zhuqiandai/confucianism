@@ -17,7 +17,7 @@ description = ""
 
 > `initial` 和 `re-render` 的入口，这里的匿名函数就是 `scheduleImmediateTask` 的 `callback`，从这里开始
 
-### 1.2 `renderRootSync`
+### 1.2 `renderRootSync` and `renderRootConcurrent`
 
 `executionContext` `dispatcher` `asyncDispatcher`
 
@@ -28,7 +28,6 @@ description = ""
 从 `root.current (HostRoot)` 创建 `WIP` 的 `Local variables`
 
 ### 1.4 `workLoopSync => performUnitOfWork => beginWork`
-
 
 ```javascript
 function workLoopSync() {
