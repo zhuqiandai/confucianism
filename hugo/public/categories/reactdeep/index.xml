@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/reactdeep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ReactRootRender</title>
-      <link>http://localhost:1313/posts/reactrootrender/</link>
+      <link>http://localhost:1313/posts/reactinitialmount/</link>
       <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reactrootrender/</guid>
+      <guid>http://localhost:1313/posts/reactinitialmount/</guid>
       <description>&lt;h2 id=&#34;0-before-schedule&#34;&gt;0. Before schedule&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/react-before-schedule.png&#34; alt=&#34;text&#34;  /&gt;
 &lt;/p&gt;
