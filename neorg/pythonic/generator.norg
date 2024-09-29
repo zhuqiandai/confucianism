@@ -1,0 +1,22 @@
+
+* Generator
+
+** Python
+
+参考链接：https://wiki.python.org/moin/Generators
+
+- *所有的生成器都是迭代器*
+- 生成器看起来像函数，但是行为像迭代器
+- 生成器每次产生并返回一个值
+- 生成器每次返回值时把控制权交还给调用者
+
+
+@code python
+
+def hello():
+	pass
+
+@end
+
+** EMCAScript
+

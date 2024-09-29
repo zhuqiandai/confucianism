@@ -1,7 +1,12 @@
+** base
 
 - ( ) track
--- (x) hledger
--- (!) hledger
+-- ( ) 整理账单
+-- ( ) 读书
 
-* code
+** record
+
+	{:$/pythonic/generator:}[生成器]
+	{:$/pythonic/iterator:}[迭代器]
+
 
