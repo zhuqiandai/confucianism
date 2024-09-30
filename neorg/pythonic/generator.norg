@@ -1,3 +1,12 @@
+@document.meta
+title: generator
+description: 
+authors: 
+categories: pythonic
+created: 2024-09-30T15:56:57+0800
+updated: 2024-09-30T15:56:57+0800
+version: 1.1.1
+@end
 
 * Generator
 
