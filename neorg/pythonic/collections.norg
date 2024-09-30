@@ -1,0 +1,40 @@
+@document.meta
+title: collections
+description: 
+authors: 
+categories: pythonic
+created: 2024-09-30T14:55:06+0800
+updated: 2024-09-30T14:55:06+0800
+version: 1.1.1
+@end
+
+> `zip` 创建的是一个只能访问一次的迭代器
+
+** Factory
+
+*** `namedtuple`
+
+	 > factory function for creating tuple subclasses with named fields
+
+*** `defaultdict`
+
+	 > dict subclass that calls a factory function to supply missing values
+
+*** `deque`
+
+	 > list-like container with fast appends and pops on either end
+
+** Class
+
+*** `OrderedDict`
+			
+	 > dict subclass that remembers the order entries were added
+
+*** `Counter`
+
+	 > dict subclass for counting hashable objects
+
+*** `ChainMap`
+
+	 > A ChainMap class is provided for quickly linking a number of mappings so they can be treated as a single unit.
+

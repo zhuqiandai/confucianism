@@ -1,0 +1,35 @@
+@document.meta
+title: built-in-types
+description: 
+authors: 
+categories: pythonic
+created: 2024-09-30T14:54:39+0800
+updated: 2024-09-30T14:54:39+0800
+version: 1.1.1
+@end
+
+> A single star * unpacks a sequence or collection into _positional arguments_. The double star ** does the same thing for a dictionar, providing values for _named arguments_
+
+** Sequence Types
+
+	 > `list` `tuple` `range`
+
+** Binary Sequence Types
+
+	 > `bytes` `bytearray` `memoryview`
+
+** Text Sequence Type
+
+	 > `str`
+
+** Set Types
+
+	 > `set` `frozenset`
+
+** Mapping Types
+
+	 > `dict`
+
+** Context Manage Types
+
+	 > `with`
