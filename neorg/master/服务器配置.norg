@@ -1,6 +1,18 @@
+@document.meta
+title: 服务器配置
+description: 
+authors: 
+categories: 工作
+created: 2024-10-03T10:17:09+0800
+updated: 2024-10-04T12:44:31+0800
+version: 1.1.1
+@end
+
 ** 内部服务器 
 
 	> `10.6.48.84`
+
+*** 前端项目地址
 
 	 - 下游局综合管理平台：`/home/pc/docker/base/web/gl`
 	 - 经营统计系统：`/home/pc/docker/base/web/kb`

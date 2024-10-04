@@ -1,18 +1,29 @@
-
 ** Summar
 *** Pythonic
   - {:$/pythonic/built-in-types:}[Built-in-types]
   - {:$/pythonic/collections:}[Collections]
+  - {:$/pythonic/generator:}[Generator]
+  - {:$/pythonic/iterator:}[Iterator]
+  - {:$/pythonic/setuptools:}[Setuptools]
+*** Rustic
+  - {:$/rustic/built-in-types:}[Built-in-types] - rust 数据结构
 *** Uncategorised
   - {:$/index:}[Summar]
   - {:$/journal/index:}[2024]
   - {:$/journal/template:}[博学笃行]
-  - {:$/master/服务器配置:}[内部服务器]
-  - {:$/pythonic/generator:}[Generator]
-  - {:$/pythonic/iterator:}[Iterator]
   - {:$/journal/2024/09/29:}[Base]
   - {:$/journal/2024/09/30:}[博学笃行]
+  - {:$/journal/2024/10/01:}[博学笃行]
+  - {:$/journal/2024/10/02:}[博学笃行]
+  - {:$/journal/2024/10/03:}[博学笃行]
+  - {:$/journal/2024/10/04:}[博学笃行]
+*** 工作
+  - {:$/master/服务器配置:}[服务器配置]
+*** 英语
+  - {:$/english/薄冰英语语法:}[薄冰英语语法]
 *** 阅读
-  - {:$/reading/回荡的钟摆:}[回荡的钟摆] - 许小年
+  - {:$/reading/一课经济学:}[一课经济学]
+  - {:$/reading/代码阅读方法与实践:}[代码阅读方法与实践]
+  - {:$/reading/回荡的钟摆:}[回荡的钟摆]
   - {:$/reading/少有人走的路:}[少有人走的路]
   - {:$/reading/生活中的经济学:}[生活中的经济学]
