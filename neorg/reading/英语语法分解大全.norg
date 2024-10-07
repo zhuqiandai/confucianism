@@ -1,10 +1,10 @@
 @document.meta
 title: 英语语法分解大全
-description: 并薄冰英语语法
+description: & 薄冰英语语法
 authors: 
 categories: 阅读 工具书
 created: 2024-10-05T11:47:56+0800
-updated: 2024-10-06T13:28:18+0800
+updated: 2024-10-07T15:08:57+0800
 version: 1.1.1
 @end
 
@@ -27,26 +27,129 @@ version: 1.1.1
 
 * 薄冰英语语法
 
-** 非限定动词
+** CH10 非限定动词
 
    - 限定动词 (finite word)
    - 非限定动词 (non-finite word) : 在句子中不可单独做谓语，不受主语人称和数量限制
    -- 由于不能做谓语，没有语法的主语，往往有逻辑的主语
    -- 往往可以转化为各种从句
 
-** 非限定动词性质
+*** 非限定动词性质
 
-   - 有时态和语态的变化
-   - 可以被状语修饰
+    - 有 *时态* 和 *语态* 的变化
+    - 可以被状语修饰
 
-** 非限定动词种类
+*** 非限定动词短语
 
-*** 不定式
+   > 非限定动词与其宾语或状语连用，组成短语
 
-*** 动名词
+**** 不定式短语
 
-*** 分词
+    - He gave her a knife to cut the bread with.
+    - To cooperate is important.
+    - To cooperate with others is important.
 
-**** 现在分词
+**** 动名词短语
 
-**** 过去分词
+    - Loading heave weights requires great skill.
+    - He like reading aloud.
+
+**** 分词短语
+
+     - It's a mixture *consisting of* oil and vinegar. (现在分词)
+     - The book just *referred to* is translated into Chinese. (过去分词)
+
+*** 非限定动词种类
+
+**** 不定式
+
+***** 不定式的用法
+
+     > 不定式有动词性质 (这里指的是有时态和语态的变化)，名词性质
+
+     > 不定式在句子中可以充当 *名词* *形容词* *副词*
+
+****** 用作主语
+
+      - To see is to believe. 百闻不如一见
+      - It always pays to tell the truth.
+      - It's been a pleasure to be able to help you.
+
+****** 用作表语
+
+      - The duties of a postman are to deliver letters and nespapers.
+      - The important things is to save lives.
+
+****** 用作宾语
+
+      - They demanded to be shown the authentic documents.
+      - I beg to move that meeting  be adjourned.
+      -- adjourn : When something is adjourned, it's over.
+
+****** 用作定语
+
+      > 主谓关系
+      - The next train to arrive was from New York.
+
+      > 动宾关系
+      - It was a game to remember.
+      - He has too many things to do.
+      - I have nothing to say on this question.
+
+      - Give me some paper to write on.
+      - There are something to be grateful for.
+
+      - Her decision to be a pianist is final.
+      
+      - He is reputed for his ability to speak four languages.
+      -- repute : A person of great or fine repute is someone who's widely known and highly respected.
+
+****** 用作状语 （目的，结果，原因）
+
+      > 表示目的，不定式前可以加 in order to 或 so as；在强调突出时，可以把这个状语放在句首
+
+      - I stayed here to say what would happen.
+      - I'll write down his telephone number so as not to forget it.
+
+      - In order to say what would happen, I stayed here.
+      - To conceal my emotion, I buried my face in m hands.
+
+      > 表示结果
+
+      - The house is so high and narrow as to resemble a tower.
+      - He has money enough to spare.
+
+      > 表示原因
+
+      - I trembled to think of it.
+
+      > 独立成分
+
+      - To make a long story short, we agreed to disagree.
+
+***** 不定式的完成
+
+      - There is no need to have bought a new pair of shoes for me.
+      - He is too young to have seen the old society.
+      - The game was originally scheduled to have taken place in Roma.
+
+      - I intended to have finished my work last night.
+      - We were to have salled next morning.
+
+***** 不定式的进行
+
+      - It's time to be making for home.
+
+***** 不定式的被动
+***** 不定式的否定
+
+**** 动名词
+
+**** 分词
+
+***** 现在分词
+
+***** 过去分词
+
+
+** CH14 句子成分

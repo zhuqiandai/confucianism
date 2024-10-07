@@ -1,0 +1,25 @@
+; journal created 2024-10-07 by hledger
+
+2024-10-07 TO SAVINGS BOND WECHAT
+    assets:bond:wechat           $115043.84
+    expenses:salary:savings     $-115043.84
+
+2024-10-07 TO SAVINGS BOND ALIPAY
+    assets:bond:alipay             $2216.46
+    expenses:salary:savings       $-2216.46
+
+2024-10-07 TO SAVINGS FUND ALIPAY
+    assets:fund:alipay            $26753.12
+    expenses:salary:savings      $-26753.12
+
+2024-10-07 TO SAVINGS ICBC
+    assets:bank:icbc               $2025.29
+    expenses:salary:savings       $-2025.29
+
+2024-10-07 TO SAVINGS OVERAGE ALIPAY
+    assets:overage:alipay            $11.43
+    expenses:salary:savings         $-11.43
+
+2024-10-07 TO SAVINGS OVERAGE ALIPAY
+    assets:overage:alipay             $8.77
+    expenses:salary:savings          $-8.77

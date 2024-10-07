@@ -1,0 +1,35 @@
+fields date, description, amount
+
+date-format %Y/%-m/%-d
+
+currency $
+
+# 存款
+if TO SAVINGS FUND WECHAT
+  account1 assets:fund:wechat
+  account2 expenses:salary:savings
+
+if TO SAVINGS BOND WECHAT
+  account1 assets:bond:wechat
+  account2 expenses:salary:savings
+
+if TO SAVINGS FUND ALIPAY
+  account1 assets:fund:alipay
+  account2 expenses:salary:savings
+
+if TO SAVINGS BOND ALIPAY
+  account1 assets:bond:alipay
+  account2 expenses:salary:savings
+
+if TO SAVINGS OVERAGE ALIPAY
+  account1 assets:overage:alipay
+  account2 expenses:salary:savings
+
+if TO SAVINGS ICBC
+  account1 assets:bank:icbc
+  account2 expenses:salary:savings
+
+# 消费
+
+
+# 定投
