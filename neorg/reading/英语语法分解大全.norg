@@ -4,7 +4,7 @@ description: & 薄冰英语语法
 authors: 
 categories: 阅读 工具书
 created: 2024-10-05T11:47:56+0800
-updated: 2024-10-07T18:23:46+0800
+updated: 2024-10-07T23:00:28+0800
 version: 1.1.1
 @end
 
@@ -77,7 +77,7 @@ version: 1.1.1
 
 ****** 用作表语
 
-      - The duties of a postman are to deliver letters and nespapers.
+      - The duties of a postman are to deliver letters and newspapers.
       - The important things is to save lives.
 
 ****** 用作宾语
@@ -126,6 +126,12 @@ version: 1.1.1
       > 独立成分
 
       - To make a long story short, we agreed to disagree.
+
+****** 用作宾补
+
+       - What decided him to give up his job?
+       - I'll leave you to attend the matter.
+       - Mr.Gilbert would be allowed to go home.
 
 ***** 不定式的完成
 
