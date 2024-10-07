@@ -30,6 +30,12 @@ if TO SAVINGS ICBC
   account2 expenses:salary:savings
 
 # 消费
+# 把消费支出先统一转到一个支付方式 (支付宝 ICBC)
 
+# if COFFEE
+#   account2 expenses:salary:savings
+
+# if INVESTMENT
+#   account2 expenses:salary:savings
 
 # 定投
