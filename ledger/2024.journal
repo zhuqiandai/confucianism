@@ -23,3 +23,7 @@
 2024-10-07 TO SAVINGS OVERAGE ALIPAY
     assets:overage:alipay             $8.77
     expenses:salary:savings          $-8.77
+
+2024-10-08 INVESTMENT
+    assets:fund:alipay            $182
+    assets:bank:icbc             $-182

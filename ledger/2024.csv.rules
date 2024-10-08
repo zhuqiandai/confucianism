@@ -35,7 +35,8 @@ if TO SAVINGS ICBC
 # if COFFEE
 #   account2 expenses:salary:savings
 
-# if INVESTMENT
-#   account2 expenses:salary:savings
+if INVESTMENT
+    account1 assets:fund:alipay
+    account2 assets:bank:icbc
 
 # 定投
