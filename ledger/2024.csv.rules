@@ -1,4 +1,4 @@
-fields date, description, amount
+fields date, description, amount, app, source
 
 date-format %Y/%-m/%-d
 
@@ -32,8 +32,13 @@ if TO SAVINGS ICBC
 # 消费
 # 把消费支出先统一转到一个支付方式 (支付宝 ICBC)
 
-# if COFFEE
-#   account2 expenses:salary:savings
+if COFFEE
+    account1 expenses:extra:coffee
+    account2 assets:%app:%source
+
+if FOOD
+    account1 expenses:daily:food
+    account2 assets:%app:%source
 
 if INVESTMENT
     account1 assets:fund:alipay

@@ -1,4 +1,4 @@
-; journal created 2024-10-07 by hledger
+; journal created 2024-10-08 by hledger
 
 2024-10-07 TO SAVINGS BOND WECHAT
     assets:bond:wechat           $115043.84
@@ -27,3 +27,11 @@
 2024-10-08 INVESTMENT
     assets:fund:alipay            $182
     assets:bank:icbc             $-182
+
+2024-10-08 FOOD
+    expenses:daily:food              $6.8
+    assets:overage:alipay           $-6.8
+
+2024-10-08 FOOD
+    expenses:daily:food          $12.58
+    assets:bank:icbc            $-12.58
