@@ -1,11 +1,13 @@
 
 * 博学笃行
 
-  {:$/english/新概念2/L7:}
-  {:$/reading/英语语法分解大全:}
-  {:$/english/Chinese envoy urges restraint to prevent further escalation in Middle East:}
+  - (=) {:$/english/新概念2/L5:}
+  - (x) {:$/english/新概念2/L7:}
 
-  {:$/graphic/OpenGL Shading Language/built-in-function:}
+  - (=) {:$/reading/英语语法分解大全:***** 现在分词}
+  - (=) {:$/english/Chinese envoy urges restraint to prevent further escalation in Middle East:}
+
+  - (=) {:$/graphic/OpenGL Shading Language/built-in-function:}
 
 * 慎思明辨
 
@@ -24,4 +26,4 @@
    -- (-) 波比跳 20 * 1
    -- (-) 波比跳 20 * 1
 
-  - GLSL 总是需要练习复习
+  - GLSL 总是需要练习复习，搞清楚独立的函数，习惯 shader 思考的方式

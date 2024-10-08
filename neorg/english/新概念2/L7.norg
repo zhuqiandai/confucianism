@@ -2,9 +2,9 @@
 title: L7
 description: Too late 
 authors: 
-categories: 
+categories: english
 created: 2024-10-08T08:41:21+0800
-updated: 2024-10-08T12:09:03+0800
+updated: 2024-10-08T13:30:28+0800
 version: 1.1.1
 @end
 
@@ -71,6 +71,10 @@ version: 1.1.1
 ** While two detectives were *keeping guard* at the door, two others opened the parcel.
 
    - at the door
+
+   - `when` `while` and `as`
+   -- while 表示一段事件的两个或者多个动作
+   -- as 表示同时发生的动作之间的关系
 
 ** To their surprise, the precious parcel was full of stones and sand!
 

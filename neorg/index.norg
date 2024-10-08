@@ -1,8 +1,13 @@
 * Summar
 ** English
+  - {:$/english/Chinese envoy urges restraint to prevent further escalation in Middle East:}[Chinese Envoy Urges Restraint To Prevent Further Escalation In Middle East] - A Lebanese Middle East Airlines takes off from Beirut-Rafic Hariri International Airport, amid ongoing hostilities between Hezbollah and Israeli forces, as seen from Sin El Fil, Lebanon on Oct 7.
   - {:$/english/National Day holiday brings box office surge:}[National Day Holiday Brings Box Office Surge] - Robust sales boost movie industry morale after recent sluggish seasons
   - {:$/english/Record surge seen in domestic, foreign tourists during holiday:}[Record Surge Seen In Domestic, Foreign Tourists During Holiday] - A foreign couple take a selfie at a scenic spot in Beijing on Tuesday.
   - {:$/english/Top 10 most valuable Chinese automobile brands:}[Top 10 Most Valuable Chinese Automobile Brands]
+  - {:$/english/新概念2/L5:}[L5] - No wrong numbers
+  - {:$/english/新概念2/L7:}[L7] - Too late
+** Grammer
+  - {:$/casual/过去进行时:}[过去进行时]
 ** Pythonic
   - {:$/pythonic/built-in-types:}[Built-in-types]
   - {:$/pythonic/collections:}[Collections]
@@ -12,6 +17,7 @@
 ** Rustic
   - {:$/rustic/built-in-types:}[Built-in-types] - rust 数据结构
   - {:$/rustic/std:}[Std]
+  - {:$/rustic/trait:}[Trait]
 ** 工作
   - {:$/master/服务器配置:}[服务器配置]
 ** 阅读
