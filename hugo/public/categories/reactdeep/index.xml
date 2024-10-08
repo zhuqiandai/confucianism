@@ -4,12 +4,12 @@
     <title>ReactDeep on Chengzhi</title>
     <link>http://localhost:1313/categories/reactdeep/</link>
     <description>Recent content in ReactDeep on Chengzhi</description>
-    <generator>Hugo -- 0.134.3</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/reactdeep/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ReactRootRender</title>
+      <title>ReactInitialMount</title>
       <link>http://localhost:1313/posts/reactinitialmount/</link>
       <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/reactinitialmount/</guid>
@@ -23,7 +23,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;initial&lt;/code&gt; 和 &lt;code&gt;re-render&lt;/code&gt; 的入口，这里的匿名函数就是 &lt;code&gt;scheduleImmediateTask&lt;/code&gt; 的 &lt;code&gt;callback&lt;/code&gt;，从这里开始&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;12-renderrootsync&#34;&gt;1.2 &lt;code&gt;renderRootSync&lt;/code&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;12-renderrootsync-and-renderrootconcurrent&#34;&gt;1.2 &lt;code&gt;renderRootSync&lt;/code&gt; and &lt;code&gt;renderRootConcurrent&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;executionContext&lt;/code&gt; &lt;code&gt;dispatcher&lt;/code&gt; &lt;code&gt;asyncDispatcher&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Current and WIP&lt;/strong&gt;: So current means the current version which is painted on the UI, workInProgress means the version that is the being built and will be used as next current.&lt;/p&gt;
@@ -60,13 +60,6 @@
 &lt;h3 id=&#34;18-updatefunctioncomponent&#34;&gt;1.8 &lt;code&gt;updateFunctionComponent&lt;/code&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;FunctionComponent&lt;/code&gt; 函数组件 &lt;code&gt;FiberNode tags&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ReactRootCreate</title>
-      <link>http://localhost:1313/posts/reactrootcreate/</link>
-      <pubDate>Fri, 20 Sep 2024 12:40:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/reactrootcreate/</guid>
-      <description>&lt;h2 id=&#34;fiber&#34;&gt;Fiber&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
