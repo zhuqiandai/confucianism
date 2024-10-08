@@ -4,19 +4,19 @@
   - (=) {:$/english/新概念2/L5:}
   - (x) {:$/english/新概念2/L7:}
 
-  - (=) {:$/reading/英语语法分解大全:***** 现在分词}
+  - (x) {:$/reading/英语语法分解大全:***** 现在分词}
   - (=) {:$/english/Chinese envoy urges restraint to prevent further escalation in Middle East:}
 
   - (=) {:$/graphic/OpenGL Shading Language/built-in-function:}
 
-  - {:$/reading/邓小平时代:** 第一章}}
+  - (x) {:$/reading/邓小平时代:** 第一章}}
 
 
   - regard: Regard often means respect and admiration
-  - occupy:
+  - occupy: "to seize."
 
-  - regret
-  - haste
+  - regret: Regret is often called a useless emotion
+  - haste: When something is done in haste, it's done fast, and often with carelessness.
 
 * 慎思明辨
 
