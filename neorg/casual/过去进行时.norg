@@ -1,0 +1,36 @@
+@document.meta
+title: 过去进行时
+description: 
+authors: 
+categories: grammer
+created: 2024-10-08T11:59:06+0800
+updated: 2024-10-08T12:04:50+0800
+version: 1.1.1
+@end
+
+
+过去进行时 表示过去某一特定时间正在进行的 动作或状态
+
+
+** 用法
+
+*** 过去某一特定时间正在进行的动作
+
+    - When I arrived, she was cooking dinner.
+    - When the plane arrived, some of the detectives were waiting inside the main building.
+
+*** 两个同时发生的过去进行的动作
+
+    - While I was watching TV, my sister was doing her homework.
+    - Some of the detectives were waiting inside the main building while others were waiting on the airfield.
+
+*** 过去某一阶段一直在进行的动作
+
+    - The detectives were waiting at the airport all morning.
+    - They were building a new house last year.
+
+
+** 比较 一般过去时
+
+   - 一般过去时 表示过去发生的动作或状态，强调动作的完成性。
+   - 过去进行时 表示过去某一时刻正在进行的动作，强调动作的延续性。

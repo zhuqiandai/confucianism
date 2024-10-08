@@ -4,14 +4,78 @@ description: Too late
 authors: 
 categories: 
 created: 2024-10-08T08:41:21+0800
-updated: 2024-10-08T10:13:08+0800
+updated: 2024-10-08T12:09:03+0800
 version: 1.1.1
 @end
 
 > 过去进行时，过去将来时
 
-The plane was late and detectives were waiting at the airport all morning.
+** The plane was late and detectives were waiting at the airport *all morning*.
 
-They were expecting a valuable parcel of diamonds from South Africa.
+- `all` and `whole`
+-- 位置不同： "all" 通常放在冠词、形容词、所有格之前；"whole" 通常放在这些词之后。
+-- 侧重点不同： "all" 强调数量的全部；"whole" 强调事物的完整性。
 
-A few hours earlier, someone had told the police that thieves would try to steal the diamonds.
+@table
+| all + $(time) | whole + $(time) |
+| --------- | --------- |
+| all morning | a whole morning |
+| all day | a whole day |
+| all winter | a whole summer |
+| all week | all the whole week |
+@end
+
+** They were expecting a valuable parcel of diamonds from South Africa.
+
+   - a parcel of 
+   - a package of 
+   - a box of
+
+** A few hours earlier, someone had told the police that thieves would try to steal the diamonds.
+
+  - 过去将来时
+   -- would + $(verb)
+   -- was/were going to + $(verb)
+  - 过去进行时 (表示动作的延续)
+   --- was/were $(verb + ing)
+
+   - that thieves would try to steal the diamonds
+   - that thieves were going to try to steal the diamonds
+
+  - a few hours before / a few hours ago
+
+** When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.
+
+   - plane
+   -- boarding pass
+   -- luggage
+   -- carry-on luggage
+   -- immigration
+
+  - others 用法
+   -- some .. others ..
+   -- one .. the other ..
+
+   - another 通常指代同类事物，而 "other" 可以指代同类或不同类的事物。
+   - another 一般不与 "the" 连用，但可以与 "a/an" 或数量词连用。
+
+   - She's reading another book by this author.
+   - Another reason for my decision is
+
+** Two men *took the parcel off* the plane and *carried it into* the Customs House.
+
+   - take off
+   -- take the parcel off
+   -- take off the coat
+
+** While two detectives were *keeping guard* at the door, two others opened the parcel.
+
+   - at the door
+
+** To their surprise, the precious parcel was full of stones and sand!
+
+   - to their surprise : 情绪
+   - to their joy
+   - to their excitement
+
+
