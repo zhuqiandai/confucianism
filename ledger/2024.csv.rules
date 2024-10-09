@@ -44,4 +44,8 @@ if INVESTMENT
     account1 assets:fund:alipay
     account2 assets:bank:icbc
 
+if INVESTMENT BOND ALIPAY
+    account1 assets:fund:alipay
+    account2 assets:bank:icbc
+
 # 定投
