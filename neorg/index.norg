@@ -19,6 +19,7 @@
   - {:$/pythonic/setuptools:}[Setuptools]
 ** Rustic
   - {:$/rustic/built-in-types:}[Built-in-types] - rust 数据结构
+  - {:$/rustic/ownership:}[Ownership]
   - {:$/rustic/std:}[Std]
   - {:$/rustic/trait:}[Trait]
 ** 工作
