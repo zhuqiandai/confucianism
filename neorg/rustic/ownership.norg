@@ -36,8 +36,10 @@ fn main () {
 
 ** Borrow semantics
 
-   > not transfer ownership, borrow access to read, use `&`
+   > not transfer ownership, borrow access to read, use `&` or `mut &`
 
 ** Drop semantics
+
+*** Drop trait
 
 
