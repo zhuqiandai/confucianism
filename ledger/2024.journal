@@ -35,3 +35,7 @@
 2024-10-08 FOOD
     expenses:daily:food          $12.58
     assets:bank:icbc            $-12.58
+
+2024-10-09 INVESTMENT
+    assets:fund:alipay             $64
+    assets:bank:icbc              $-64
