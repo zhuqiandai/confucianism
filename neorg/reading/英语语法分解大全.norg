@@ -51,6 +51,8 @@ version: 1.1.1
 
 **** 动名词短语
 
+     > 用动词扩展名词，同时强调动作本身
+
     - Loading heave weights requires great skill.
     - He like reading aloud.
 
@@ -203,6 +205,8 @@ version: 1.1.1
 
 **** 分词
 
+     > 分词有动词的性质即时态和语态，但是不能做谓语
+
 ***** 现在分词
 
       > 有动词和形容词的性质，在句子中做形容词或者副词，现在分词一般表主动
@@ -228,6 +232,7 @@ version: 1.1.1
 ****** 用作宾补
 
        - I felt the house shaking.
+       - I heard him singing.
        - Can you get the clock going again?
 
 ****** 与不定式比较
@@ -246,8 +251,25 @@ version: 1.1.1
        - 现在分词不重读
        - 动名词需要重读
 
+       > 做定语时候
+
        - 现在分词表示所修饰名词的动作
        - 动名词表示所修饰名词的性质
+
+       - 动名词主要还是用作名词
+       - 现在分词主要用作形容词和副词
+
+       - waiting people -> 现在分词
+       - waiting room -> 动名词
+       - swimming pool -> 动名词
+
+       - rising sun -> 现在分词
+       - walking sticks -> 动名词
+
+       - a sleeping baby -> 现在分词
+       - a sleeping bag -> 动名词
+
+       这里现在分词还是做形容词修饰名词，动名词和名词构成名词
 
 ***** 过去分词
 
@@ -267,12 +289,22 @@ version: 1.1.1
 
        - The couple took good care of the baby while occupied by their work.
 
+****** 用作宾补
+
+       - I saw the door painted.
+       - I watched the bike repaired.
+       - She heard someone calling her name.
+
 ** CH12 形容词 副词
 
 *** 形容词
 
+    > adjective 修饰名词（代词）
+
 *** 副词
   
-    > adverb 修饰动词，形容词，其它副词以及全句子
+    > adverb 修饰动词，形容词，副词以及全句子，包括 方式，时间，地点，频率，程度；主要做状语
 
 ** CH14 句子成分
+
+** CH16 句子类型
