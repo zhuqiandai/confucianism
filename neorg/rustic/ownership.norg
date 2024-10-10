@@ -4,11 +4,11 @@ description:
 authors: 
 categories: rustic
 created: 2024-10-09T10:13:22+0800
-updated: 2024-10-09T16:59:35+0800
+updated: 2024-10-10T14:46:27+0800
 version: 1.1.1
 @end
 
-> full ownership semantics
+> full ownership semantics，on the stack, when the function call ends, Rust deallocates the stack frame.
 
 ** Copy
 
@@ -43,3 +43,4 @@ fn main () {
 *** Drop trait
 
 
+** Slice Type
