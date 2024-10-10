@@ -54,9 +54,13 @@ fn add_suffix(mut name: String) -> String {
 
 ** Borrow semantics
 
-   > for permission: `read` `write`; for code: concise and convenient style of programming
+   > for permission: `read` -> alias `write` -> mutation; for code: concise and convenient style of programming
 
    > do not transfer ownership, borrow access to read, use `&` or `mut &`
+
+   避免同时 by the reference and by the operation，Rust 遵循:
+
+   Pointer Safety Principle: data should never be aliased and mutated at the same time.
 
 *** Reference (create a reference to borrowing)
 
@@ -65,6 +69,21 @@ fn add_suffix(mut name: String) -> String {
 *** Dereference
 
     > Rust implicitly inserts dereferences and references in certain cases, such as calling a method with the dot operator.
+
+**** implicit conversations:
+
+     `dot` 语法是 explicit conversation 的语法糖
+
+*** Borrow checker
+
+    > Borrow checker: ensure the safety of references
+
+    The core idea behind the borrow checker is that variables have three kinds of permissions on their data (during compile): 
+
+    - R(read) : can be copied
+    - W(write) : can be mutated
+    - O(own) : can be moved or dropped
+
 
 ** Drop semantics
 
