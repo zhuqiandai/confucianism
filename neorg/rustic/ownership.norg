@@ -4,7 +4,7 @@ description:
 authors: 
 categories: rustic
 created: 2024-10-09T10:13:22+0800
-updated: 2024-10-10T15:45:59+0800
+updated: 2024-10-10T17:21:05+0800
 version: 1.1.1
 @end
 
@@ -14,6 +14,8 @@ version: 1.1.1
 > Box deallocation principle (fully correct): If a variable owns a box, when Rust deallocates the variable’s frame, then Rust deallocates the box’s heap memory.
 
 所以理解 `stack frame` 至关重要包括之后的闭包
+
+* Part 1
 
 ** Copy
 
@@ -34,18 +36,33 @@ version: 1.1.1
    > transfer ownership by assignment
 
 @code rust 
-fn main () {
-  println!("hello")
+fn main() {
+    let first = String::from("Ferris");
+    let full = add_suffix(first);
+    println!("{full}, originally {first}"); // first is now used here
+}
+
+fn add_suffix(mut name: String) -> String {
+    name.push_str(" Jr.");
+    name
 }
 @end
 
+   > Remember: it’s not a problem that first points to deallocated memory. It’s a problem that we tried to use first after it became invalid.
+
+* Part 2
+
 ** Borrow semantics
 
-   > not transfer ownership, borrow access to read, use `&` or `mut &`
+   > for permission: `read` `write`; for code: concise and convenient style of programming
+
+   > do not transfer ownership, borrow access to read, use `&` or `mut &`
+
+*** Reference (create a reference to borrowing)
+
+    > References are non-owning pointers, 
 
 ** Drop semantics
 
 *** Drop trait
 
-
-** Slice Type
