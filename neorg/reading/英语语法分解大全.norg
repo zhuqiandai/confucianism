@@ -4,7 +4,7 @@ description: & 薄冰英语语法
 authors: 
 categories: 阅读 工具书
 created: 2024-10-05T11:47:56+0800
-updated: 2024-10-07T23:00:28+0800
+updated: 2024-10-10T11:30:01+0800
 version: 1.1.1
 @end
 
@@ -304,7 +304,69 @@ version: 1.1.1
 *** 副词
   
     > adverb 修饰动词，形容词，副词以及全句子，包括 方式，时间，地点，频率，程度；主要做状语
+** CH13 介词 连词 感叹词
+
+*** 介词 preposition
+    > 前置词，虚词。只表示之后的名词（也叫介词宾语）和句子中其他成分的关系
+
+    - I can do nothing for them except to send them money.
+
+**** 介词种类
+
+***** 简单介词
+
+***** 复合介词
+
+      - into
+      - as for
+
+***** 二重介词
+
+      - from under 
+      - until after
+
+***** 短语介词 phrasal preposition
+
+***** 分词介词 participle preposition
+
+      - including
+
+**** 介词用法
+
+****** 主语
+
+      - *From Beijing to Tianjin* is two hours by train.
+
+****** 表语
+
+       - Mr. and Mrs. Smith are *from New York*.
+
+****** 宾语
+
+       - I'll give you until tomorrow.
+       - The eight thieves served a sentence of between 2 and 7 years.
+
+****** 状语 
+
+       - He is staying late *at the office*.
+       - Dona covered her face *with her hand*.
+
+****** 定语
+
+       - The end *of colonialism* is a question *of time*. (后置定语)
+
+****** 补语
+
+       - They found themselves in a dark wood.
+
+*** 连词
 
 ** CH14 句子成分
+
+*** 状语 adverbial
+    > 修饰动词，形容词，副词或者整个句子
+
+*** 补语 complement
+    > subject complement & object complement
 
 ** CH16 句子类型

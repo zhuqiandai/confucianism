@@ -4,7 +4,7 @@ description: A polite request
 authors: 
 categories: 
 created: 2024-10-08T08:51:20+0800
-updated: 2024-10-10T09:43:43+0800
+updated: 2024-10-10T09:49:17+0800
 version: 1.1.1
 @end
 
@@ -19,6 +19,10 @@ version: 1.1.1
 3. 主句含情态动词，从句一般现在时
 
 If you park your car in the wrong place, a traffic policeman will soon find it.
+
+   - 条件状语从句 
+   -- if it rains tomorrow, we will stay at home
+   -- if you study hard, you will pass the exam.
 
 You will be very lucky if he lets you go without a ticket.
 
