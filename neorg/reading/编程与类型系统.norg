@@ -1,0 +1,19 @@
+@document.meta
+title: 编程与类型系统
+description: 
+authors: 
+categories: 阅读 工具书
+created: 2024-10-10T09:18:44+0800
+updated: 2024-10-10T09:34:53+0800
+version: 1.1.1
+@end
+
+** CH01
+
+   1. 为什么存在类型
+
+   > 安全，类型在代码运行之上进行抽象
+
+   2. 类型与类型系统
+
+   > 类型系统是一种语言，用它写出逻辑证明
