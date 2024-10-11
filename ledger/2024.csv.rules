@@ -1,4 +1,4 @@
-fields date, description, amount, app, source
+fields date, description, amount, app, source, remark
 
 date-format %Y/%-m/%-d
 

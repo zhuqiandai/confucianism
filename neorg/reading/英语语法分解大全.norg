@@ -27,6 +27,24 @@ version: 1.1.1
 
 * 薄冰英语语法
 
+** CH08 被动语态
+
+*** 种类
+
+**** 一般现在时
+
+     - I'm not so easily deceived.
+
+**** 一般过去时
+
+     - Our house was built in 1969.
+
+**** 一般将来时
+
+     - I hope that an agreement will be arrived at.
+
+** CH09 助动词 情态动词
+
 ** CH10 非限定动词
 
    - 限定动词 (finite word)
@@ -428,11 +446,16 @@ version: 1.1.1
       --- during the movie
       --- during the vocation
 
+      - since
+
 ***** 其他
 
       - of 表示所属
       - for 表示目的
       - of from 表示原因时
+
+      - as to
+      -- I'm curious as to what he will say.
 
 **** 介词短语后置
 
@@ -455,4 +478,28 @@ version: 1.1.1
 *** 补语 complement
     > subject complement & object complement
 
+*** 同位语 appositive
+    > 提供更多信息，对名词代词进行进一步解释说明
+
+    1. 解释说明
+    2. 强调
+    3. 从句：通常在一些抽象概念名词后 (idea, news, belief)
+
 ** CH16 句子类型
+
+*** 宾语从句
+
+    - I know he has returned.
+    - I should like to see where you live.
+    - Your success will largely depend upon what you do and how you do it.
+    - He made it quite clear that he preferred to learn English
+
+*** 直接引语 间接引语
+
+    > 间接引语作宾语从句
+
+*** 定语从句
+
+*** 同位语从句
+
+    - The belief that everyone is equal is fundamental to democracy.
