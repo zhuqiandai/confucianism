@@ -80,9 +80,9 @@ fn add_suffix(mut name: String) -> String {
 
     The core idea behind the borrow checker is that variables have three kinds of permissions on their data (during compile): 
 
-    - R(read) : can be copied
-    - W(write) : can be mutated
-    - O(own) : can be moved or dropped
+    - R(read) : can be copied (default)
+    - W(write) : can be mutated (default)
+    - O(own) : can be moved or dropped (with `mut`)
 
 
 ** Drop semantics
