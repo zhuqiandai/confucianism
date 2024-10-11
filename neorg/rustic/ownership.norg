@@ -84,7 +84,6 @@ fn add_suffix(mut name: String) -> String {
     - W(write) : can be mutated (default)
     - O(own) : can be moved or dropped (with `mut`)
 
-
 ** Drop semantics
 
 *** Drop trait
