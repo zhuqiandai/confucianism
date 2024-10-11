@@ -1,3 +1,13 @@
+@document.meta
+title: index
+description: 
+authors: 
+categories: 
+created: 2024-10-11T15:21:36+0800
+updated: 2024-10-11T15:21:36+0800
+version: 1.1.1
+@end
+
 * 2024
 ** September
    {:$neorg/journal/2024/09/29:}[29]

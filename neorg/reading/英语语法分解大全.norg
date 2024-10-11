@@ -487,6 +487,22 @@ version: 1.1.1
 
 ** CH16 句子类型
 
+*** 简单句
+
+**** SV subject verb
+
+**** SVC complement
+
+**** SLP link predicate
+
+**** SVO object
+
+**** SVOO
+
+**** SVOC
+
+     - I found this book easy.
+
 *** 宾语从句
 
     - I know he has returned.
