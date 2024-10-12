@@ -60,7 +60,7 @@ fn add_suffix(mut name: String) -> String {
 
    避免同时 by the reference and by the operation，Rust 遵循:
 
-   Pointer Safety Principle: data should never be aliased and mutated at the same time.
+	 *Pointer Safety Principle*: data should never be aliased and mutated at the same time.
 
 *** Reference (create a reference to borrowing)
 
@@ -76,13 +76,20 @@ fn add_suffix(mut name: String) -> String {
 
 *** Borrow checker
 
-    > Borrow checker: ensure the safety of references
+		> Borrow checker: ensure the safety of references，by *places* to find permission violations
+
+		> Borrow checker: 是按照位置 (places) 进行检查的
 
     The core idea behind the borrow checker is that variables have three kinds of permissions on their data (during compile): 
 
     - R(read) : can be copied (default)
     - W(write) : can be mutated (default)
     - O(own) : can be moved or dropped (with `mut`)
+
+		- shared reference: `&` 
+		- unique reference: `&mut`
+
+		> a reference change its permissions while it is "in use", "in use" describes the lifetime
 
 ** Drop semantics
 
