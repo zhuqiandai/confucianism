@@ -8,6 +8,8 @@ updated: 2024-10-10T17:27:53+0800
 version: 1.1.1
 @end
 
+> For lifetime: Live lines might have been a more appropriate term …
+
 > full ownership semantics，on the stack, when the function call ends, Rust deallocates the stack frame.
 
 > Box deallocation principle (almost correct): If a variable is bound to a box, when Rust deallocates the variable’s frame, then Rust deallocates the box’s heap memory.
