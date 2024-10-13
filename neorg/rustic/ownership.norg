@@ -90,6 +90,9 @@ fn add_suffix(mut name: String) -> String {
 		- unique reference: `&mut`
 
 		> a reference change its permissions while it is "in use", "in use" describes the lifetime
+		> Permissions Are Returned At The End of a Reference’s Lifetime
+
+		这里借用有一个新名词 "non-lexical lifetimes" 非词法作用域生命周期。不同于 scope 中普通的生命周期，根据 places 来进行判定
 
 ** Drop semantics
 
