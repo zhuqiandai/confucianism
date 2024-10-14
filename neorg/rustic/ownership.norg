@@ -96,6 +96,19 @@ fn add_suffix(mut name: String) -> String {
 
 		这里借用有一个新名词 "non-lexical lifetimes" 非词法作用域生命周期。不同于 scope 中普通的生命周期，根据 places 来进行判定
 
+**** /Permissions Are Returned At The End of a Reference’s Lifetime/ 引用的生命周期结束后把 `RWO` 权限返回
+
+**** /Data Must Outlive All Of Its References/ 数据必须比所有它的引用生命周期要长 `F`
+
+@code rust
+let s = String::from("Hello world");
+let s_ref = &s;
+drop(s);
+println!("{}", s_ref); // s_ref 的生命周期到这里
+		 @end
+		 
+		> 注意：这里的生命周期仍然时 `Line livetime` 或者 `place` 为单位的生命周期
+
 ** Drop semantics
 
 *** Drop trait

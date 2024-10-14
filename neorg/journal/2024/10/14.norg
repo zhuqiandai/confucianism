@@ -1,22 +1,29 @@
 
 * 博学笃行
 
+*** 汉宫春·立春日 辛弃疾
+
+		> 时年二十四
+
+		春已归来，看美人头上，袅袅春幡。无端风雨，未肯尽收余寒。年时燕子，料今宵梦到西园。浑未办，黄柑荐酒，更传青韭推盘。
+		却笑东风，从此便薰梅染柳，更没些闲。闲时又来镜里，转变朱颜。清愁不断，问何人会解连环？生怕见，花开花落，朝来塞雁先还。
+
+		- be placed in 处于
+
 
 * 慎思明辨
 
+	把单词部分放到 `anki`
+
   - (=) {:$/english/Bottled up in the Black Sea:}
   - (=) {:$/english/What causes kidney stones:}
-  - (=) {:$/rustic/ownership:}
+  - (-) {:$/rustic/ownership:}
 
-  - (=) {:$/english/BBC6Min/Keeping kids off smartphones:}
+  - (-) {:$/english/BBC6Min/Keeping kids off smartphones:}
+	- (=) {:$/english/VOASpecial/Italian Family Aims to Prove Its Painting Is a Picasso:}
 
   - (=) {:$/reading/朱子训学斋规:}
 	- (=) {:$/reading/中式英语之鉴:}
-
-	> 音标很重要这里解释的也很清晰，锻炼唇齿舌的肌肉和固定，和吹箫有些类似
-	- (x) {:$/english/英语发音/单元音:}
-	- (x) {:$/english/英语发音/双元音:}
-	- (x) {:$/english/英语发音/辅音:}
 
   - (x) {:$/english/新概念2/L5:}
   - (x) {:$/english/新概念2/L7:}
@@ -29,7 +36,7 @@
   - (x) {:$/english/新概念2/L15:}
   - (x) {:$/english/新概念2/L16:}
   - (x) {:$/english/新概念2/L17:}
-  - (x) {:$/reading/英语语法分解大全:*** 复合句 complex}
+	- (-) {:$/reading/英语语法分解大全:** CH09 助动词 情态动词}
 
 * 审问
 
