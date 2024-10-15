@@ -105,7 +105,7 @@ let s = String::from("Hello world");
 let s_ref = &s;
 drop(s);
 println!("{}", s_ref); // s_ref 的生命周期到这里
-		 @end
+@end
 		 
 		> 注意：这里的生命周期仍然时 `Line livetime` 或者 `place` 为单位的生命周期
 
