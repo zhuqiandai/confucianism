@@ -29,23 +29,29 @@ version: 1.1.1
 		unstressed: office instead divorce
 
 	- 重音 stressed -> 发音曲线是 从上而下  
-	- 非重音 unstressed -> 发音平快
+		- 非重音 unstressed -> 发音平快 口型不变 更放松
 
 
 		-- `/e/ (国际音标) or /ɛ/`: bed desk head red pen
 		> 微笑口型, 上下牙齿之间可以放下食指
+		> 舌头中部升起，稍稍碰到口腔后面
 
     -- `/æ/`: bad cat apple
 		> 嘴角向两边，嘴唇上下裂开，上下牙齿之间可以放下食指和中指
+		> 同样舌尖接触下齿
+
 
 
 
 		- `/a:/ or /ɑ:/ or /ɑ:/` : car heart fast class hot stop
 		> 口腔打开，嘴张开最大，舌头自然放平，不接触下齿，口腔放松，比汉语 啊 开口更大些
+		> 舌尖轻触下齿，舌根稍稍下压，双唇放松
 
 		-- `/ɔ:/`: door more sport law
 		> 上下唇上下齿张开，舌头自然放平
-
+		> 舌头靠后向后拉，舌尖不要碰到任何东西，口型是喇叭型
+		> tip: 可以两颊向稍微收缩
+		> tip: 当后面接 `r` 时嘴型更加喇叭，舌头拉回更多，再上升一点点
 
 
 		- `/u:/`: blue soup room
@@ -58,7 +64,7 @@ version: 1.1.1
 - `/ʌ/`: but trust
 		> 上下唇上下齿微张，舌头自然平放
 
-- `/ə/`: ago forget polite panda
+		- `/ə/`: ago forget polite panda (SCHWA)
 		> 与 `/ʌ/` 相同，相比发音轻一点
 
 - `/ə:/` or `/ɜ/`: girl work serve nurse
