@@ -13,13 +13,15 @@ version: 1.1.1
 
 
 *** `/i:/ and /i/` : he pea tea see we
-		> 微笑口型，舌尖轻触下排牙齿，舌头中部微微弓形，嘴角拉开
+		> 发音位置为舌面
+		> 微笑口型，舌尖轻触下排牙齿，舌头中部微微弓形，嘴角拉开 
 		> 非重音 下巴下垂比重音小些，口型更放松
 
 		stressed: keep need
 		unstressed: busy police early (几乎所有以 y 结尾的单词)
 
 *** `/I/`: bit hip pick hit
+		> 发音位置为舌根，软腭
 		> 微笑口型，舌头位置比 `/i:/` 稍微后缩轻触下排牙齿，舌头前部弓形顶在口腔前半部，相比 `/i:/` 下巴下垂更多
 		> 非重音 下巴下垂比重音小些，口型更放松
 
@@ -30,8 +32,7 @@ version: 1.1.1
 	- 非重音 unstressed -> 发音平快
 
 
-
-		-- `/e/ or /ɛ/ (国际音标)`: bed desk head red pen
+		-- `/e/ (国际音标) or /ɛ/`: bed desk head red pen
 		> 微笑口型, 上下牙齿之间可以放下食指
 
     -- `/æ/`: bad cat apple
@@ -39,14 +40,11 @@ version: 1.1.1
 
 
 
-		- `/a:/ or /ɑ:/` : car heart fast class
-    > 口腔打开，嘴张开最大，舌身放平，舌尖悬空，口腔放松
+		- `/a:/ or /ɑ:/ or /ɑ:/` : car heart fast class hot stop
+		> 口腔打开，嘴张开最大，舌头自然放平，不接触下齿，口腔放松，比汉语 啊 开口更大些
 
-    -- `/ɔ:/`: door more sport
-    > 双唇小而圆，向前突出，舌身后缩
-
-		- `/ɔ/ or /ɒ/` hot want orange
-    > 双唇稍收圆，口腔打开，口型比 `/ɔ:/` 更大些，舌身后缩，双唇有紧绷感
+		-- `/ɔ:/`: door more sport law
+		> 上下唇上下齿张开，舌头自然放平
 
 
 
@@ -58,10 +56,11 @@ version: 1.1.1
 
 
 - `/ʌ/`: but trust
-> 嘴唇半张开，口型在 `/a:/` 和 `/ɔ/` 之间，舌后部稍稍抬起，嗓子不完全打开
-
-- `/ə:/` or `/ɜ/`: girl work serve nurse
-> 嘴唇扁平，上下齿微开，舌身放平
+		> 上下唇上下齿微张，舌头自然平放
 
 - `/ə/`: ago forget polite panda
-> 口型基本与 `/ə/` 相同，舌中部稍稍抬起，舌位比 `/ə/` 稍高
+		> 与 `/ʌ/` 相同，相比发音轻一点
+
+- `/ə:/` or `/ɜ/`: girl work serve nurse
+		> 嘴唇扁平，上下齿微开，舌身放平 美音卷舌
+
