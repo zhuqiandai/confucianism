@@ -31,7 +31,7 @@ version: 1.1.1
 
 
 
-		-- `/e/ or /ɛ/`: bed desk head red pen
+		-- `/e/ or /ɛ/ (国际音标)`: bed desk head red pen
 		> 微笑口型, 上下牙齿之间可以放下食指
 
     -- `/æ/`: bad cat apple
@@ -55,6 +55,7 @@ version: 1.1.1
 
     - `/u/ or /ʊ/`: look wood put
     > 嘴唇稍稍外突，嘴型稍收圆，嘴型比 `/u:/` 偏大偏圆，舌头后缩
+
 
 - `/ʌ/`: but trust
 > 嘴唇半张开，口型在 `/a:/` 和 `/ɔ/` 之间，舌后部稍稍抬起，嗓子不完全打开

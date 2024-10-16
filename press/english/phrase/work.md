@@ -1,8 +1,8 @@
-- work at: 强调地点
-- work in: 强调领域或行业
-- work as: 强调职位或角色
-- work on: 强调任务或项目
-- work for: 为某人或某机构工作
+- _work at_: 强调地点
+- _work in_: 强调领域或行业
+- _work as_: 强调职位或角色
+- _work on_: 强调任务或项目
+- _work for_: 为某人或某机构工作
 
 
 
