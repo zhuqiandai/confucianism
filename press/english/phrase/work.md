@@ -2,6 +2,7 @@
 - work in: 强调领域或行业
 - work as: 强调职位或角色
 - work on: 强调任务或项目
+- work for: 为某人或某机构工作
 
 
 
@@ -24,3 +25,10 @@ I work as a teacher at school.
 ## work on
 
 They are working on solving this problem.
+
+## work for 
+
+She work for a non-profit organization.
+She was determined to work for a better future.
+
+

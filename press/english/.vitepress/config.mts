@@ -17,7 +17,8 @@ export default defineConfig({
         items: [
           { text: 'Phrase 短语', link: '/phrase/index', items: [
 						{ text: "work -", link: "/phrase/work"},
-						{ text: "drive -", link: "/phrase/drive"}
+						{ text: "drive -", link: "/phrase/drive"},
+						{ text: "knock -", link: "/phrase/knock"}
 					] },
           { text: 'Paragraph 段落', link: '/paragraph/index' },
           { text: 'Grammar 语法', link: '/grammar/index', items: [
