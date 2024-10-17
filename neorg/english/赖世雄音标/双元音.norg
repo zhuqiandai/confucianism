@@ -13,13 +13,18 @@ version: 1.1.1
 ** 双元音
 
 	 > 两个单元音组成，双元音应该有一个连贯和过渡的发音
+   > 双元音的重音通常落在第一个元音上。
 
 	 - eye : /ai/
-	 - pay : /ei/
-	 - oh  : /əu/
-	 - how : /au/
+	 - pay : /ei/ or /e/ (美式音标)
+	 > 后面接辅音 n 时候 不要吞掉 i 的音
 	 - boy : /ɔi/
 	 -- Boys like toys, and enjoy noise as joy.
+
+
+	 - oh  : /əu/
+	 - how : /au/
+
 	 - air : /ɛə/
 	 - ear : /iə/ 
 	 - sure : /uə/
