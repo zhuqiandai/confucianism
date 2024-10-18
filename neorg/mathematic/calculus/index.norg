@@ -1,10 +1,15 @@
 
+* 数学基础复习
 
-* 数据基础复习
+** 数系 Number types
 
-** 数系 Number theory
+	 {https://www.mathsisfun.com/sets/number-types.html}
 
 	 有理数 $R$ rational number
+
+	 1. 有序性
+	 2. 对 加减乘除运算 的封闭性
+	 3. 稠密性
 
 	 无理数 irrational number
 
@@ -15,6 +20,11 @@
 	 整数 $Z$ integers = 正整数 + 0 + 负整数
 
 	 实数 $R$ real number = rational number + irrational number
+
+	 1. 有序性
+	 2. 对 加减乘除运算 的封闭性
+	 3. 稠密性
+	 4. 连续性
 
 	 复数 $C$ complex number
 
@@ -27,8 +37,14 @@
 
 	 > P = \{2, 3, 5, 6, 11, 13...\}
 
+*** 集合 Set
+
+		> 集合表示方法 1. 枚举法 2. 说明法
+
 ** 代数
 
-*** 函数
+	 {https://www.mathsisfun.com/algebra/index.html}
+
+
 
 ** 几何
