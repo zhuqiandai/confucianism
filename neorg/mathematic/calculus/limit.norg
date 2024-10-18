@@ -1,0 +1,23 @@
+
+$\lim_{x \to -c} f(x) = L$
+
+
+1. 用靠近表示逼近的数学建模
+
+用 $\epsilon$ 靠近表示在 y 轴上 f(x) 与 L 的靠近
+用 $\delta$ 靠近表示在 x 轴上 x 与 c 的靠近
+
+2. $\epsilon$ $\delta$ 靠近 关联如何
+
+$\epsilon$ 靠近 is based on $\delta$ 靠近，也就是 $\epsilon$ 靠近由 $\delta$ 靠近来完成
+
+
+
+
+** 定理
+
+	 $\lim_{x \to c} x = c$
+
+	 $\lim_{x \to c} |x| = |c|$
+
+	 $\lim_{x \to c} k = k$ (k is constant)
