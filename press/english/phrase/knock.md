@@ -1,6 +1,5 @@
 
-
-- **knock down**
+- _knock down_
     - 物理上吹倒击倒
     - 拆除摧毁
 

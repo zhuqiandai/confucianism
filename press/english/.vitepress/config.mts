@@ -35,6 +35,8 @@ export default defineConfig({
             items: [
               { text: "monophthong 单元音", link: "/phonetic/monophthong" },
               { text: "diphthong 双元音", link: "/phonetic/diphthong" },
+              { text: "consonant 辅音", link: "/phonetic/consonant" },
+              { text: "contraction 连读", link: "/phonetic/contraction" },
             ],
           },
         ],
