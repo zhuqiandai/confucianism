@@ -2,17 +2,22 @@
 * 博学笃行
 
 
+	Functions where the defining equations terminate for all arguments are called *total*, and function where this is not the case are called *partial*.
+
+	> 假设有两个未知数 x y ，一步就计算出 x y 结果的函数是 total，第一步计算出 x, 第二不计算出 y 的函数是 partial
+
 
 * 慎思明辨
 
-	- (-) {:$/english/VOASpecial/Has Human Life Expectancy Reached Its Limit:}
-
-	- (-) {:$/mathematic/calculus/index:}
-	- (-) {:$/mathematic/calculus/limit:}
+	- (x) {:$/english/VOASpecial/Has Human Life Expectancy Reached Its Limit:}
 
 	- (-) {:$/english/Chinese envoy urges restraint to prevent further escalation in Middle East:}
   - (-) {:$/english/BBC6Min/Keeping kids off smartphones:}
   - (=) {:$/english/What causes kidney stones:}
+
+
+	- (-) {:$/mathematic/calculus/index:}
+	- (-) {:$/mathematic/calculus/limit:}
 
   - (=) {:$/reading/朱子训学斋规:}
 	- (=) {:$/reading/中式英语之鉴:}
