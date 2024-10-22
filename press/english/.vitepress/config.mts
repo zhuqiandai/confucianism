@@ -27,7 +27,8 @@ export default defineConfig({
           { text: "Paragraph 段落", link: "/paragraph/index" },
           { text: "Grammar 语法", link: "/grammar/index", items: [
 						{ text: "noun clause 名词性从句", link: "/grammar/noun-clause" },
-						{ text: "auxiliary 助动词", link: "/grammar/auxiliary" }
+						{ text: "auxiliary 助动词", link: "/grammar/auxiliary" },
+						{ text: "article 冠词", link: "/grammar/article" }
 					] },
           {
             text: "Phonetic 音标",
