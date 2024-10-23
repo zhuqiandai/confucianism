@@ -1,4 +1,4 @@
-// node_modules/@vue/devtools-shared/dist/index.js
+// node_modules/.pnpm/@vue+devtools-shared@7.4.6/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -28,7 +28,7 @@ var __toESM = (mod, isNodeMode, target2) => (target2 = mod != null ? __create(__
   mod
 ));
 var init_esm_shims = __esm({
-  "../../node_modules/.pnpm/tsup@8.3.0_@microsoft+api-extractor@7.43.0_@types+node@20.16.11__@swc+core@1.5.29_jiti@2.0.0__khi6fwhekjxtif3xyxfitrs5gq/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.3.0_@microsoft+api-extractor@7.43.0_@types+node@20.16.5__@swc+core@1.5.29_jiti@1.21.6__ldnw4a7r4ccknnz6q542psuydy/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -227,8 +227,7 @@ var isBrowser = typeof navigator !== "undefined";
 var target = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : typeof global !== "undefined" ? global : {};
 var isInChromePanel = typeof target.chrome !== "undefined" && !!target.chrome.devtools;
 var isInIframe = isBrowser && target.self !== target.top;
-var _a;
-var isInElectron = typeof navigator !== "undefined" && ((_a = navigator.userAgent) == null ? void 0 : _a.toLowerCase().includes("electron"));
+var isInElectron = typeof navigator !== "undefined" && navigator.userAgent.toLowerCase().includes("electron");
 var isNuxtApp = typeof window !== "undefined" && !!window.__NUXT__;
 init_esm_shims();
 var import_rfdc = __toESM(require_rfdc(), 1);
@@ -240,10 +239,7 @@ function classify(str) {
   return str && `${str}`.replace(classifyRE, toUpper);
 }
 function basename(filename, ext) {
-  let normalizedFilename = filename.replace(/^[a-z]:/i, "").replace(/\\/g, "/");
-  if (normalizedFilename.endsWith(`index${ext}`)) {
-    normalizedFilename = normalizedFilename.replace(`/index${ext}`, ext);
-  }
+  const normalizedFilename = filename.replace(/^[a-z]:/i, "").replace(/\\/g, "/");
   const lastSlashIndex = normalizedFilename.lastIndexOf("/");
   const baseNameWithExt = normalizedFilename.substring(lastSlashIndex + 1);
   if (ext) {
@@ -258,7 +254,7 @@ function isUrlString(str) {
 }
 var deepClone = (0, import_rfdc.default)({ circles: true });
 
-// node_modules/perfect-debounce/dist/index.mjs
+// node_modules/.pnpm/perfect-debounce@1.0.0/node_modules/perfect-debounce/dist/index.mjs
 var DEBOUNCE_DEFAULTS = {
   trailing: true
 };
@@ -315,7 +311,7 @@ async function _applyPromised(fn, _this, args) {
   return await fn.apply(_this, args);
 }
 
-// node_modules/hookable/dist/index.mjs
+// node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs
 function flatHooks(configHooks, hooks2 = {}, parentName) {
   for (const key in configHooks) {
     const subHook = configHooks[key];
@@ -520,11 +516,11 @@ function createHooks() {
   return new Hookable();
 }
 
-// node_modules/birpc/dist/index.mjs
+// node_modules/.pnpm/birpc@0.2.19/node_modules/birpc/dist/index.mjs
 var { clearTimeout: clearTimeout2, setTimeout: setTimeout2 } = globalThis;
 var random = Math.random.bind(Math);
 
-// node_modules/@vue/devtools-kit/dist/index.js
+// node_modules/.pnpm/@vue+devtools-kit@7.4.6/node_modules/@vue/devtools-kit/dist/index.js
 var __create2 = Object.create;
 var __defProp2 = Object.defineProperty;
 var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -554,7 +550,7 @@ var __toESM2 = (mod, isNodeMode, target22) => (target22 = mod != null ? __create
   mod
 ));
 var init_esm_shims2 = __esm2({
-  "../../node_modules/.pnpm/tsup@8.3.0_@microsoft+api-extractor@7.43.0_@types+node@20.16.11__@swc+core@1.5.29_jiti@2.0.0__khi6fwhekjxtif3xyxfitrs5gq/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.3.0_@microsoft+api-extractor@7.43.0_@types+node@20.16.5__@swc+core@1.5.29_jiti@1.21.6__ldnw4a7r4ccknnz6q542psuydy/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -2130,12 +2126,7 @@ function toRaw(observed) {
 var Fragment = Symbol.for("v-fgt");
 init_esm_shims2();
 function getComponentTypeName(options) {
-  var _a25;
-  const name = options.name || options._componentTag || options.__VUE_DEVTOOLS_COMPONENT_GUSSED_NAME__ || options.__name;
-  if (name === "index" && ((_a25 = options.__file) == null ? void 0 : _a25.endsWith("index.vue"))) {
-    return "";
-  }
-  return name;
+  return options.name || options._componentTag || options.__VUE_DEVTOOLS_COMPONENT_GUSSED_NAME__ || options.__name;
 }
 function getComponentFileName(options) {
   const file = options.__file;
@@ -2620,9 +2611,9 @@ function scrollToComponent(options) {
   }
 }
 init_esm_shims2();
-var _a2;
+var _a;
 var _b;
-(_b = (_a2 = target).__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__) != null ? _b : _a2.__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__ = true;
+(_b = (_a = target).__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__) != null ? _b : _a.__VUE_DEVTOOLS_COMPONENT_INSPECTOR_ENABLED__ = true;
 function waitForInspectorInit(cb) {
   let total = 0;
   const timer = setInterval(() => {
@@ -2662,34 +2653,11 @@ function getComponentInspector() {
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
-var TIMELINE_LAYERS_STATE_STORAGE_ID = "__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS_STATE__";
-function getTimelineLayersStateFromStorage() {
-  if (!isBrowser || typeof localStorage === "undefined") {
-    return {
-      recordingState: false,
-      mouseEventEnabled: false,
-      keyboardEventEnabled: false,
-      componentEventEnabled: false,
-      performanceEventEnabled: false,
-      selected: ""
-    };
-  }
-  const state = localStorage.getItem(TIMELINE_LAYERS_STATE_STORAGE_ID);
-  return state ? JSON.parse(state) : {
-    recordingState: false,
-    mouseEventEnabled: false,
-    keyboardEventEnabled: false,
-    componentEventEnabled: false,
-    performanceEventEnabled: false,
-    selected: ""
-  };
-}
 init_esm_shims2();
 init_esm_shims2();
-init_esm_shims2();
-var _a22;
+var _a2;
 var _b2;
-(_b2 = (_a22 = target).__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS) != null ? _b2 : _a22.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS = [];
+(_b2 = (_a2 = target).__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS) != null ? _b2 : _a2.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS = [];
 var devtoolsTimelineLayers = new Proxy(target.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS, {
   get(target22, prop, receiver) {
     return Reflect.get(target22, prop, receiver);
@@ -2925,9 +2893,7 @@ function initStateFactory() {
     tabs: [],
     commands: [],
     highPerfModeEnabled: true,
-    devtoolsClientDetected: {},
-    perfUniqueGroupId: 0,
-    timelineLayersState: getTimelineLayersStateFromStorage()
+    devtoolsClientDetected: {}
   };
 }
 var _a9;
@@ -3174,9 +3140,6 @@ var on = {
   componentAdded(fn) {
     return devtoolsHooks.hook("component:added", fn);
   },
-  componentEmit(fn) {
-    return devtoolsHooks.hook("component:emit", fn);
-  },
   componentUpdated(fn) {
     return devtoolsHooks.hook("component:updated", fn);
   },
@@ -3185,12 +3148,6 @@ var on = {
   },
   setupDevtoolsPlugin(fn) {
     devtoolsHooks.hook("devtools-plugin:setup", fn);
-  },
-  perfStart(fn) {
-    return devtoolsHooks.hook("perf:start", fn);
-  },
-  perfEnd(fn) {
-    return devtoolsHooks.hook("perf:end", fn);
   }
 };
 var hook = {
@@ -3333,8 +3290,6 @@ var reversedTokenMap = Object.entries(tokenMap).reduce((acc, [key, value]) => {
   acc[value] = key;
   return acc;
 }, {});
-init_esm_shims2();
-init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
@@ -4444,9 +4399,9 @@ var _b20;
 var _a21;
 var _b21;
 (_b21 = (_a21 = target).__VUE_DEVTOOLS_KIT_RPC_SERVER__) != null ? _b21 : _a21.__VUE_DEVTOOLS_KIT_RPC_SERVER__ = null;
-var _a222;
+var _a22;
 var _b22;
-(_b22 = (_a222 = target).__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__) != null ? _b22 : _a222.__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__ = null;
+(_b22 = (_a22 = target).__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__) != null ? _b22 : _a22.__VUE_DEVTOOLS_KIT_VITE_RPC_CLIENT__ = null;
 var _a23;
 var _b23;
 (_b23 = (_a23 = target).__VUE_DEVTOOLS_KIT_VITE_RPC_SERVER__) != null ? _b23 : _a23.__VUE_DEVTOOLS_KIT_VITE_RPC_SERVER__ = null;
