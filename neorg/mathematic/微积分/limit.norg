@@ -1,0 +1,37 @@
+
+$\lim_{x \to c} f(x) = L$
+
+** 极限的数学建模
+
+1. 用靠近表示逼近的数学建模
+
+用 $\epsilon$ 靠近表示在 y 轴上 f(x) 与 L 的靠近
+用 $\delta$ 靠近表示在 x 轴上 x 与 c 的靠近
+
+2. $\epsilon$ 靠近 和 $\delta$ 靠近 之间的关系
+
+$\epsilon$ 靠近 is based on $\delta$ 靠近，也就是 $\epsilon$ 靠近由 $\delta$ 靠近来完成
+
+- 对每一个 $\epsilon$ 靠近都存在有一个 $\delta$ 靠近来完成 
+- 对每一个 $\epsilon$ 靠近都存在有 $\delta$ 靠近 *使得* 对每一个 x 在 $0 < |x-c| < \delta$ 都满足 $|f(x) - L| < \epsilon$
+
+(所以在证明时，使用 $\epsilon$ 找到对应的 $\delta$ 来满足 因此来证明极限存在)
+
+3. $\epsilon$ 靠近 和 $\delta$ 靠近用 formula 表示
+
+$\epsilon$ 靠近: $|f(x) - L| < \epsilon$
+$\delta$ 靠近: $ 0 < |x - c| < \delta$
+
+因为 x 无限逼近 c 但是永远不会等于 c
+
+
+** 左右极限数学建模
+
+
+** 证明极限存在
+
+	 $\lim_{x \to c} x = c$
+
+	 $\lim_{x \to c} |x| = |c|$
+
+	 $\lim_{x \to c} k = k$ (k is constant)
